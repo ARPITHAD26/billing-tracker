@@ -1,0 +1,5706 @@
+{
+  "savedAt": "2026-10-15T05:29:42.504Z",
+  "clients": [
+    {
+      "id": "CL-001",
+      "code": "BBMP",
+      "name": "Bruhat Bengaluru Mahanagara Palike",
+      "sector": "Municipal",
+      "departmentContact": "Chief Engineer (Lakes & Infra)",
+      "email": "ce.lakes@bbmp.gov.in",
+      "phone": "+91 80 2266 0000",
+      "activeWorkflows": 12,
+      "activeUnits": 8,
+      "slaDefault": 2,
+      "status": "ACTIVE",
+      "updatedAt": "2026-10-15T05:11:39.533Z"
+    },
+    {
+      "id": "CL-002",
+      "code": "BMRCL",
+      "name": "Bangalore Metro Rail Corporation Ltd.",
+      "sector": "Metro Transit",
+      "departmentContact": "General Manager (Operations & Finance)",
+      "email": "gm.ops@bmrc.co.in",
+      "phone": "+91 80 2296 9300",
+      "activeWorkflows": 6,
+      "activeUnits": 4,
+      "slaDefault": 3,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "CL-003",
+      "code": "KIADB",
+      "name": "Karnataka Industrial Areas Development Board",
+      "sector": "Industrial",
+      "departmentContact": "Chief Development Officer",
+      "email": "cdo@kiadb.net",
+      "phone": "+91 80 2221 5383",
+      "activeWorkflows": 4,
+      "activeUnits": 3,
+      "slaDefault": 3,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "CL-004",
+      "code": "BMCRI",
+      "name": "Bangalore Medical College & Research Institute",
+      "sector": "Healthcare",
+      "departmentContact": "Dean & Director",
+      "email": "dean@bmcri.org",
+      "phone": "+91 80 2670 1150",
+      "activeWorkflows": 5,
+      "activeUnits": 4,
+      "slaDefault": 2,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "CL-005",
+      "code": "BDA",
+      "name": "Bangalore Development Authority",
+      "sector": "Municipal",
+      "departmentContact": "Finance Member & Secretary",
+      "email": "secy@bdabangalore.org",
+      "phone": "+91 80 2334 2661",
+      "activeWorkflows": 3,
+      "activeUnits": 2,
+      "slaDefault": 2,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "CL-006",
+      "code": "Bowring Hospital",
+      "name": "Bowring & Lady Curzon Hospital and Gosha",
+      "sector": "Healthcare",
+      "departmentContact": "Medical Superintendent",
+      "email": "ms@bowring.gov.in",
+      "phone": "+91 80 2559 1325",
+      "activeWorkflows": 2,
+      "activeUnits": 1,
+      "slaDefault": 2,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "CL-007",
+      "code": "KSMCL",
+      "name": "Karnataka State Mining & Geology Corp.",
+      "sector": "State Enterprise",
+      "departmentContact": "Managing Director",
+      "email": "md@ksmcl.karnataka.gov.in",
+      "phone": "+91 80 2226 2300",
+      "activeWorkflows": 3,
+      "activeUnits": 2,
+      "slaDefault": 4,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "CL-008",
+      "code": "KPTCL",
+      "name": "Karnataka Power Transmission Corp. Ltd.",
+      "sector": "Energy & Utility",
+      "departmentContact": "Chief Engineer (Transmission)",
+      "email": "ce.trans@kptcl.com",
+      "phone": "+91 80 2221 4526",
+      "activeWorkflows": 4,
+      "activeUnits": 3,
+      "slaDefault": 3,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "CL-009",
+      "code": "GKVK",
+      "name": "University of Agricultural Sciences (GKVK)",
+      "sector": "Education/Govt",
+      "departmentContact": "Comptroller & Estate Officer",
+      "email": "comptroller@uasbangalore.edu.in",
+      "phone": "+91 80 2333 0153",
+      "activeWorkflows": 2,
+      "activeUnits": 1,
+      "slaDefault": 3,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "CL-010",
+      "code": "NCBS",
+      "name": "National Centre for Biological Sciences",
+      "sector": "Research Institute",
+      "departmentContact": "Head of Administration & Finance",
+      "email": "admin@ncbs.res.in",
+      "phone": "+91 80 2366 6001",
+      "activeWorkflows": 2,
+      "activeUnits": 1,
+      "slaDefault": 2,
+      "status": "ACTIVE"
+    }
+  ],
+  "units": [
+    {
+      "id": "UN-001",
+      "clientCode": "BBMP",
+      "name": "BBMP Lakes North Zone",
+      "contact": "S. Natarajan",
+      "zone": "Mahadevapura",
+      "location": "Bellandur & KR Puram Lakes",
+      "bills": 8,
+      "slaCompliance": "88%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-002",
+      "clientCode": "BBMP",
+      "name": "BBMP Lakes South Zone",
+      "contact": "R. Krishnamurthy",
+      "zone": "Bannerghatta Rd",
+      "location": "South Corridor Lakes",
+      "bills": 5,
+      "slaCompliance": "92%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-003",
+      "clientCode": "BBMP",
+      "name": "BBMP Yelahanka Zone",
+      "contact": "P. Venkatesh",
+      "zone": "Yelahanka",
+      "location": "Ward 05 & Ward 18",
+      "bills": 6,
+      "slaCompliance": "79%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-004",
+      "clientCode": "BBMP",
+      "name": "BBMP Solid Waste Management",
+      "contact": "A. Reddy",
+      "zone": "East Zone",
+      "location": "Central Processing Units",
+      "bills": 3,
+      "slaCompliance": "95%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-005",
+      "clientCode": "BMRCL",
+      "name": "BMRCL Phase 2 Civil Works (Reach 3C)",
+      "contact": "D. Bhat",
+      "zone": "Central Corridor",
+      "location": "Peenya - Jalahalli Reach",
+      "bills": 4,
+      "slaCompliance": "98%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-006",
+      "clientCode": "BMRCL",
+      "name": "BMRCL Project Wing (80% Operational)",
+      "contact": "R. Chandrashekhar, KAS",
+      "zone": "HQ & Corridor",
+      "location": "Metro Bhavan CSO Office",
+      "bills": 4,
+      "slaCompliance": "100%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-007",
+      "clientCode": "BMRCL",
+      "name": "BMRCL Project Wing (20% Statutory HR)",
+      "contact": "Col. Jyothi",
+      "zone": "Corporate",
+      "location": "HR Compliance Wing",
+      "bills": 3,
+      "slaCompliance": "90%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-008",
+      "clientCode": "BMCRI",
+      "name": "Victoria Hospital Housekeeping & Security",
+      "contact": "Dr. Savitha Patil",
+      "zone": "Central Bengaluru",
+      "location": "Victoria Hospital Complex",
+      "bills": 4,
+      "slaCompliance": "85%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-009",
+      "clientCode": "BMCRI",
+      "name": "Vanivilas Hospital Housekeeping & Security",
+      "contact": "Dr. Geetha S.",
+      "zone": "Central Bengaluru",
+      "location": "KR Road Campus",
+      "bills": 2,
+      "slaCompliance": "90%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-010",
+      "clientCode": "BMCRI",
+      "name": "Minto Hospital Housekeeping & Security",
+      "contact": "Dr. M. Rao",
+      "zone": "Central Bengaluru",
+      "location": "Chamarajpet Campus",
+      "bills": 2,
+      "slaCompliance": "88%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-011",
+      "clientCode": "BDA",
+      "name": "BDA Man Power Wing",
+      "contact": "S. K. Murthy",
+      "zone": "Kumara Park",
+      "location": "BDA Head Office",
+      "bills": 3,
+      "slaCompliance": "91%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-012",
+      "clientCode": "Bowring Hospital",
+      "name": "Bowring & Lady Curzon Hospital",
+      "contact": "Deepa Hegde",
+      "zone": "Shivajinagar",
+      "location": "Hospital Wards & OPD",
+      "bills": 2,
+      "slaCompliance": "80%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-013",
+      "clientCode": "KIADB",
+      "name": "Harohalli & DO EE1 Office",
+      "contact": "G. Prasad",
+      "zone": "Ramanagara",
+      "location": "Harohalli Industrial Area",
+      "bills": 3,
+      "slaCompliance": "85%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-014",
+      "clientCode": "KSMCL",
+      "name": "KSMCL Quarry & Mining Operations",
+      "contact": "B. Kumar",
+      "zone": "Tumkur Dist.",
+      "location": "Sand & Mineral Pits",
+      "bills": 2,
+      "slaCompliance": "75%",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "UN-015",
+      "clientCode": "KPTCL",
+      "name": "KPTCL Substation Civil Works",
+      "contact": "H. Reddy",
+      "zone": "North Bengaluru",
+      "location": "220kV Grid Substation",
+      "bills": 3,
+      "slaCompliance": "83%",
+      "status": "ACTIVE"
+    }
+  ],
+  "services": [
+    {
+      "id": "SV-001",
+      "code": "CIVIL-DESILTING",
+      "name": "Lake Desilting & Bund Restoration",
+      "category": "Civil Works",
+      "unit": "Per Cum",
+      "baseRate": "₹ 450",
+      "description": "Excavation, silt dredging, bund profiling, and boulder pitching."
+    },
+    {
+      "id": "SV-002",
+      "code": "CIVIL-MASONRY",
+      "name": "Masonry Weir & Sluice Gate Construction",
+      "category": "Civil Works",
+      "unit": "Per Sqm",
+      "baseRate": "₹ 2,800",
+      "description": "Granite masonry overflow weirs, RCC chute blocks, and intake gates."
+    },
+    {
+      "id": "SV-003",
+      "code": "METRO-VIADUCT",
+      "name": "Viaduct Segmental Casting & Pier Cap Works",
+      "category": "Metro Transit",
+      "unit": "Per Rmt",
+      "baseRate": "₹ 85,000",
+      "description": "Structural concrete viaduct piers, pre-cast segment stitching, and bearings."
+    },
+    {
+      "id": "SV-004",
+      "code": "MECH-AERATOR",
+      "name": "Lake Aeration System Installation & Maintenance",
+      "category": "Mechanical",
+      "unit": "Per Unit",
+      "baseRate": "₹ 85,000",
+      "description": "Surface aerator fountains, HDPE air diffusers, and compressor lines."
+    },
+    {
+      "id": "SV-005",
+      "code": "ELEC-SUBSTATION",
+      "name": "Power Substation Civil & LT/HT Electrical Works",
+      "category": "Electrical",
+      "unit": "Lumpsum",
+      "baseRate": "₹ 45,00,000",
+      "description": "Transformer yards, switchgear panels, and cabling infrastructure."
+    },
+    {
+      "id": "SV-006",
+      "code": "SAN-HOSPITAL",
+      "name": "Hospital Deep Sanitation & Ward Housekeeping",
+      "category": "Housekeeping",
+      "unit": "Per Sqft / Mo",
+      "baseRate": "₹ 18",
+      "description": "24x7 clinical ward disinfection, linen management, and biomedical waste."
+    },
+    {
+      "id": "SV-007",
+      "code": "MANPOWER-DEO",
+      "name": "Outsourced Technical Staff & DEO Personnel",
+      "category": "Manpower",
+      "unit": "Per Head / Mo",
+      "baseRate": "₹ 28,500",
+      "description": "Skilled DEOs, accounting assistants, and project coordinators."
+    },
+    {
+      "id": "SV-008",
+      "code": "SECURITY-GUARD",
+      "name": "Armed & Unarmed Facility Security Services",
+      "category": "Security",
+      "unit": "Per Guard / Mo",
+      "baseRate": "₹ 24,000",
+      "description": "Trained security personnel, perimeter patrol, and access control."
+    },
+    {
+      "id": "SV-009",
+      "code": "CIVIL-CULVERT",
+      "name": "Stormwater Culvert & Drain Remodeling",
+      "category": "Civil Works",
+      "unit": "Per Rmt",
+      "baseRate": "₹ 8,500",
+      "description": "RCC box culverts, retaining walls, and silt baffle chambers."
+    },
+    {
+      "id": "SV-010",
+      "code": "HORT-PLANTATION",
+      "name": "Bund Afforestation & Green Belt Development",
+      "category": "Horticulture",
+      "unit": "Per Ha",
+      "baseRate": "₹ 1,20,000",
+      "description": "Soil preparation, native tree saplings, drip irrigation, and 3-year maintenance."
+    }
+  ],
+  "billingTypes": [
+    {
+      "id": "BT-001",
+      "code": "MONTHLY-RA",
+      "name": "Monthly Running Account (RA) Bill",
+      "billingFrequency": "Monthly",
+      "retentionPercent": 5,
+      "advanceDeductionPercent": 10,
+      "paymentTermsDays": 30,
+      "description": "Standard monthly running account bill for ongoing public works and services based on certified measurement book entries.",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "BT-002",
+      "code": "SPLIT-80-20",
+      "name": "Split Milestone Billing (80% Ops / 20% Retention)",
+      "billingFrequency": "Milestone-based",
+      "retentionPercent": 20,
+      "advanceDeductionPercent": 0,
+      "paymentTermsDays": 15,
+      "description": "BMRCL & transit model: 80% operational milestone cleared via CSO & GM Operations; 20% statutory HR retention released after compliance.",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "BT-003",
+      "code": "DOUBLE-BILL",
+      "name": "Double Bill Route (DC Bill + DCF Fund Allocation)",
+      "billingFrequency": "Monthly / Milestone",
+      "retentionPercent": 5,
+      "advanceDeductionPercent": 5,
+      "paymentTermsDays": 28,
+      "description": "BBMP Municipal code: 15-tier approval involving technical check-measurement, Zonal JC, DCF Fund allocation, and DC Bill pass order.",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "BT-004",
+      "code": "MILESTONE-STAGE",
+      "name": "Milestone Progress Bill",
+      "billingFrequency": "Milestone-based",
+      "retentionPercent": 5,
+      "advanceDeductionPercent": 0,
+      "paymentTermsDays": 21,
+      "description": "Contractual milestone billing triggered at designated physical deliverables (e.g. 25%, 50%, 75%, 100% completion).",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "BT-005",
+      "code": "RETENTION-RELEASE",
+      "name": "Statutory Retention & Security Deposit Release",
+      "billingFrequency": "One-time",
+      "retentionPercent": 0,
+      "advanceDeductionPercent": 0,
+      "paymentTermsDays": 30,
+      "description": "Final statutory release of withheld 5% or 20% retention after completion of defect liability period and labour clearance.",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "BT-006",
+      "code": "LUMPSUM-TURNKEY",
+      "name": "Lumpsum Turnkey Contract Bill",
+      "billingFrequency": "Quarterly / Milestone",
+      "retentionPercent": 10,
+      "advanceDeductionPercent": 0,
+      "paymentTermsDays": 20,
+      "description": "Fixed lumpsum contract billing against certified turnkey deliverables and performance guarantees.",
+      "status": "ACTIVE"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "WF-01-BBMP-LAKES",
+      "index": 1,
+      "client": "BBMP",
+      "unit": "BBMP Lakes (North, Central, West, East, South Zones)",
+      "category": "MUNICIPAL",
+      "serviceType": "Lake Desilting, Bund Strengthening & Civil Works",
+      "billingCycle": "Monthly / Milestone",
+      "isPilot": true,
+      "pilotRationale": "Primary Pilot 1: Complex municipal public works hierarchy (15 stages), double-bill mechanism (DC Bill + DCF Fund release), and mandatory KPWD check-measurements.",
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal Registration",
+          "role": "Tapal Clerk",
+          "dept": "Inward Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Covering Letter",
+            "Tax Invoice",
+            "Work Order Copy"
+          ],
+          "escalationRole": "AEE"
+        },
+        {
+          "step": 2,
+          "name": "AE Field Scrutiny",
+          "role": "Assistant Engineer (AE)",
+          "dept": "Field Engineering",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Measurement Book (MB)",
+            "Geo-tagged Site Photos"
+          ],
+          "escalationRole": "AEE"
+        },
+        {
+          "step": 3,
+          "name": "AEE Check-Measurement",
+          "role": "Assistant Executive Engineer (AEE)",
+          "dept": "Sub-Division",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "25% Check Measurement Note",
+            "Quality Certificate"
+          ],
+          "escalationRole": "EE"
+        },
+        {
+          "step": 4,
+          "name": "EE Divisional Scrutiny",
+          "role": "Executive Engineer (EE)",
+          "dept": "Divisional Directorate",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Technical Sanction Parity",
+            "Divisional Scrutiny Sheet"
+          ],
+          "escalationRole": "Joint Commissioner"
+        },
+        {
+          "step": 5,
+          "name": "Attendance & Labour Certification",
+          "role": "Vigilance & Labour Cell",
+          "dept": "Labour Welfare Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Form V Muster Roll",
+            "Labour Welfare Cess Note"
+          ],
+          "escalationRole": "EE"
+        },
+        {
+          "step": 6,
+          "name": "EE Concurrence",
+          "role": "Executive Engineer (EE)",
+          "dept": "Divisional Directorate",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Consolidated Scrutiny Docket"
+          ],
+          "escalationRole": "Joint Commissioner"
+        },
+        {
+          "step": 7,
+          "name": "Joint Commissioner Review",
+          "role": "Joint Commissioner (JC)",
+          "dept": "Zonal Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Zonal Executive Note"
+          ],
+          "escalationRole": "Addl. Revenue Commissioner"
+        },
+        {
+          "step": 8,
+          "name": "Additional Revenue Scrutiny",
+          "role": "Additional Revenue Officer",
+          "dept": "Revenue Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Tax Clearance Certificate"
+          ],
+          "escalationRole": "Commissioner"
+        },
+        {
+          "step": 9,
+          "name": "Commissioner Sanction",
+          "role": "Special / Addl. Commissioner",
+          "dept": "Executive Council",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Administrative Sanction Note"
+          ],
+          "escalationRole": "CEO / Administrator"
+        },
+        {
+          "step": 10,
+          "name": "DCF Verification",
+          "role": "Deputy Controller of Finance (DCF)",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Budget Allocation Voucher"
+          ],
+          "escalationRole": "Special Commissioner (Finance)"
+        },
+        {
+          "step": 11,
+          "name": "Fund Allocation",
+          "role": "Budget & Fund Officer",
+          "dept": "Treasury & Funds",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Fund Release Authorization"
+          ],
+          "escalationRole": "DCF"
+        },
+        {
+          "step": 12,
+          "name": "EE File Endorsement",
+          "role": "Executive Engineer (EE)",
+          "dept": "Divisional Directorate",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "DC Bill Verification Docket"
+          ],
+          "escalationRole": "DCF"
+        },
+        {
+          "step": 13,
+          "name": "DC Bill Passing",
+          "role": "Deputy Controller Bill Wing",
+          "dept": "Pre-Audit & Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "DC Bill Order",
+            "Statutory Deductions Sheet"
+          ],
+          "escalationRole": "DCF"
+        },
+        {
+          "step": 14,
+          "name": "DCF Final Audit Clearance",
+          "role": "Deputy Controller of Finance",
+          "dept": "Audit & Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Audit Passed Certificate"
+          ],
+          "escalationRole": "Chief Finance Officer"
+        },
+        {
+          "step": 15,
+          "name": "Disbursement & Payment",
+          "role": "Cash Section & Treasury",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "RTGS / Cheque Advice",
+            "Bank Remittance Receipt"
+          ],
+          "escalationRole": "DCF"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 27,
+      "billingType": "Double Bill Route (DC Bill + DCF Fund Allocation)",
+      "updatedAt": "2026-10-15T05:29:42.502Z"
+    },
+    {
+      "id": "WF-02-BBMP-YELAHANKA",
+      "index": 2,
+      "client": "BBMP",
+      "unit": "BBMP Yelahanka Zone",
+      "category": "MUNICIPAL",
+      "serviceType": "Ward Infrastructure & Urban Maintenance",
+      "billingCycle": "Monthly / Milestone",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Work Order"
+          ],
+          "escalationRole": "AEE"
+        },
+        {
+          "step": 2,
+          "name": "AE",
+          "role": "Assistant Engineer",
+          "dept": "Ward Engineering",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "MB Book",
+            "Site Photos"
+          ],
+          "escalationRole": "AEE"
+        },
+        {
+          "step": 3,
+          "name": "AEE",
+          "role": "Assistant Executive Engineer",
+          "dept": "Sub-Division",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Check Measurement"
+          ],
+          "escalationRole": "EE"
+        },
+        {
+          "step": 4,
+          "name": "EE",
+          "role": "Executive Engineer",
+          "dept": "Division",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Technical Sanction"
+          ],
+          "escalationRole": "JC"
+        },
+        {
+          "step": 5,
+          "name": "Attendance Certification",
+          "role": "Labour Officer",
+          "dept": "Vigilance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Rolls"
+          ],
+          "escalationRole": "EE"
+        },
+        {
+          "step": 6,
+          "name": "EE Endorsement",
+          "role": "Executive Engineer",
+          "dept": "Division",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Divisional File"
+          ],
+          "escalationRole": "JC"
+        },
+        {
+          "step": 7,
+          "name": "JC Approval",
+          "role": "Joint Commissioner",
+          "dept": "Zonal Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Zonal Endorsement"
+          ],
+          "escalationRole": "Addl. Revenue Commissioner"
+        },
+        {
+          "step": 8,
+          "name": "Additional Revenue",
+          "role": "Addl. Revenue Commissioner",
+          "dept": "Revenue Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Tax Note"
+          ],
+          "escalationRole": "Commissioner"
+        },
+        {
+          "step": 9,
+          "name": "Commissioner Sanction",
+          "role": "Commissioner",
+          "dept": "Executive Council",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "CEO"
+        },
+        {
+          "step": 10,
+          "name": "DCF",
+          "role": "DCF",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Budget Note"
+          ],
+          "escalationRole": "CFO"
+        },
+        {
+          "step": 11,
+          "name": "Fund Allocation",
+          "role": "Fund Section",
+          "dept": "Treasury",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Fund Release Order"
+          ],
+          "escalationRole": "DCF"
+        },
+        {
+          "step": 12,
+          "name": "EE Filing",
+          "role": "Executive Engineer",
+          "dept": "Division",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "DC Bill Docket"
+          ],
+          "escalationRole": "DCF"
+        },
+        {
+          "step": 13,
+          "name": "DC Bill",
+          "role": "DC Bill Officer",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Bill Voucher"
+          ],
+          "escalationRole": "DCF"
+        },
+        {
+          "step": 14,
+          "name": "DCF Clearance",
+          "role": "DCF",
+          "dept": "Finance",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Final Clearance"
+          ],
+          "escalationRole": "CFO"
+        },
+        {
+          "step": 15,
+          "name": "Payments",
+          "role": "Cash Section",
+          "dept": "Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Advice"
+          ],
+          "escalationRole": "DCF"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 27,
+      "billingType": "Double Bill Route (DC Bill + DCF Fund Allocation)",
+      "updatedAt": "2026-10-15T05:29:42.502Z"
+    },
+    {
+      "id": "WF-03-BDA-MANPOWER",
+      "index": 3,
+      "client": "BDA",
+      "unit": "BDA Man Power Wing",
+      "category": "MUNICIPAL",
+      "serviceType": "Outsourced Technical & Administrative Staff",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Muster Summary"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Bio-metric Attendance",
+            "EPF/ESI Challan"
+          ],
+          "escalationRole": "DS-1"
+        },
+        {
+          "step": 3,
+          "name": "DS-1 Approval",
+          "role": "Deputy Secretary-1 (DS-1)",
+          "dept": "Secretariat",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Compliance Verification"
+          ],
+          "escalationRole": "Finance Member"
+        },
+        {
+          "step": 4,
+          "name": "Finance Member (FM) Scrutiny",
+          "role": "Finance Member",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Wage Parity Check"
+          ],
+          "escalationRole": "Accounts Superintendent"
+        },
+        {
+          "step": 5,
+          "name": "Case Worker Re-verification",
+          "role": "Case Worker",
+          "dept": "Administration",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Scrutiny Docket"
+          ],
+          "escalationRole": "Accounts Superintendent"
+        },
+        {
+          "step": 6,
+          "name": "Accounts Superintendent Scrutiny",
+          "role": "Accounts Superintendent",
+          "dept": "Accounts Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Calculation Sheet"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 7,
+          "name": "Chief Accounts Officer (CAO)",
+          "role": "Chief Accounts Officer",
+          "dept": "Finance & Accounts",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Statutory Audit Sheet"
+          ],
+          "escalationRole": "Finance Member"
+        },
+        {
+          "step": 8,
+          "name": "Finance Member Concurrence",
+          "role": "Finance Member",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Financial Sanction"
+          ],
+          "escalationRole": "DS-1"
+        },
+        {
+          "step": 9,
+          "name": "DS-1 Processing",
+          "role": "Deputy Secretary-1",
+          "dept": "Secretariat",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "File Docket"
+          ],
+          "escalationRole": "Secretary"
+        },
+        {
+          "step": 10,
+          "name": "Secretary Approval",
+          "role": "Secretary BDA",
+          "dept": "Executive Management",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Executive Approval"
+          ],
+          "escalationRole": "Commissioner"
+        },
+        {
+          "step": 11,
+          "name": "DS-1 Passing Order",
+          "role": "Deputy Secretary-1",
+          "dept": "Secretariat",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "Finance Member"
+        },
+        {
+          "step": 12,
+          "name": "FM Payment Release",
+          "role": "Finance Member",
+          "dept": "Finance",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Disbursement Order"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 13,
+          "name": "Disbursement & Payment",
+          "role": "Cash Section",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Bank Payment Advice"
+          ],
+          "escalationRole": "FM"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 21,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.502Z"
+    },
+    {
+      "id": "WF-04-BDA-SECURITY",
+      "index": 4,
+      "client": "BDA",
+      "unit": "BDA Security Wing",
+      "category": "MUNICIPAL",
+      "serviceType": "Security Guarding Services",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Guard Deployment Log"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Security Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Deployment Muster",
+            "ESI/EPF Records"
+          ],
+          "escalationRole": "DS-1"
+        },
+        {
+          "step": 3,
+          "name": "DS-1 Approval",
+          "role": "Deputy Secretary-1",
+          "dept": "Secretariat",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Administrative Check"
+          ],
+          "escalationRole": "SP Section"
+        },
+        {
+          "step": 4,
+          "name": "SP Section Scrutiny",
+          "role": "Superintendent of Police (Vigilance)",
+          "dept": "Vigilance & Security",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Vigilance Clearance"
+          ],
+          "escalationRole": "Inspector"
+        },
+        {
+          "step": 5,
+          "name": "Inspector Approval",
+          "role": "Security Inspector",
+          "dept": "Vigilance & Security",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Post Inspection Report"
+          ],
+          "escalationRole": "DS-1"
+        },
+        {
+          "step": 6,
+          "name": "DS-1 Endorsement",
+          "role": "Deputy Secretary-1",
+          "dept": "Secretariat",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Verified Docket"
+          ],
+          "escalationRole": "FM"
+        },
+        {
+          "step": 7,
+          "name": "FM Initial Verification",
+          "role": "Finance Member",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Financial Estimate"
+          ],
+          "escalationRole": "Accounts Superintendent"
+        },
+        {
+          "step": 8,
+          "name": "Accounts & CAO Verification",
+          "role": "Case Worker / Accts Supt / CAO",
+          "dept": "Finance Directorate",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Audit Calculation Note"
+          ],
+          "escalationRole": "FM"
+        },
+        {
+          "step": 9,
+          "name": "FM Endorsement",
+          "role": "Finance Member",
+          "dept": "Finance",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Financial Sanction Note"
+          ],
+          "escalationRole": "DS-1"
+        },
+        {
+          "step": 10,
+          "name": "DS-1 Submission",
+          "role": "Deputy Secretary-1",
+          "dept": "Secretariat",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Executive Note"
+          ],
+          "escalationRole": "Secretary"
+        },
+        {
+          "step": 11,
+          "name": "Secretary & Commissioner Sanction",
+          "role": "Secretary / Commissioner BDA",
+          "dept": "Executive Directorate",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Commissioner Order"
+          ],
+          "escalationRole": "Finance Member"
+        },
+        {
+          "step": 12,
+          "name": "FM Final Payment Order",
+          "role": "Finance Member",
+          "dept": "Finance",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Order"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 13,
+          "name": "Payments",
+          "role": "Cash Section",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Cheque / NEFT Advice"
+          ],
+          "escalationRole": "FM"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 21,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.502Z"
+    },
+    {
+      "id": "WF-05-BMCRI-COLLEGE",
+      "index": 5,
+      "client": "BMCRI",
+      "unit": "BMCRI College Security and Housekeeping",
+      "category": "HEALTHCARE",
+      "serviceType": "Campus Security & Sanitation Services",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal / Dean Inward",
+          "role": "Dean Executive Registry",
+          "dept": "Dean Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Tax Invoice",
+            "Attendance Log"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 2,
+          "name": "Administrative Officer Scrutiny",
+          "role": "Administrative Officer (AO)",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Work Order Validation"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 3,
+          "name": "Case Worker Processing",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Rolls",
+            "EPF/ESI Records"
+          ],
+          "escalationRole": "Warden"
+        },
+        {
+          "step": 4,
+          "name": "Warden Bill Certification",
+          "role": "Chief Warden",
+          "dept": "Student Hostels & Campus",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Hostel Verification Certificate"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 5,
+          "name": "Office Superintendent Scrutiny",
+          "role": "Office Superintendent",
+          "dept": "College Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Docket Verification Sheet"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 6,
+          "name": "AO Endorsement",
+          "role": "Administrative Officer",
+          "dept": "Administration",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "AO Concurrence Note"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 7,
+          "name": "Chief Accounts Officer (CAO)",
+          "role": "Chief Accounts Officer",
+          "dept": "Accounts",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Pre-Audit Checklist",
+            "Tax Calculation"
+          ],
+          "escalationRole": "Financial Advisor"
+        },
+        {
+          "step": 8,
+          "name": "Financial Advisor (FA) Approval",
+          "role": "Financial Advisor",
+          "dept": "Finance Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "FA Sanction Note"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 9,
+          "name": "Dean Sanction",
+          "role": "Dean & Director BMCRI",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Executive Sanction Order"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 10,
+          "name": "Cash Section & FA Passing",
+          "role": "Case Worker & FA",
+          "dept": "Cash & Pre-Audit",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Voucher Generation"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 11,
+          "name": "Dean Final Sign-off",
+          "role": "Dean & Director",
+          "dept": "Executive Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Final Payment Authorization"
+          ],
+          "escalationRole": "Treasury"
+        },
+        {
+          "step": 12,
+          "name": "Treasury Payment",
+          "role": "Treasury Officer",
+          "dept": "Govt Treasury / Bank",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Treasury E-Payment Scroll"
+          ],
+          "escalationRole": "Dean"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 21,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.502Z"
+    },
+    {
+      "id": "WF-06-VICTORIA-HOSPITAL",
+      "index": 6,
+      "client": "BMCRI",
+      "unit": "Victoria Housekeeping and Security",
+      "category": "HEALTHCARE",
+      "serviceType": "Hospital Housekeeping & Ward Sanitation",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Hospital Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Muster Summary"
+          ],
+          "escalationRole": "Medical Superintendent"
+        },
+        {
+          "step": 2,
+          "name": "Medical Superintendent (MS)",
+          "role": "Medical Superintendent",
+          "dept": "Hospital Administration",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Docket Routing Order"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 3,
+          "name": "Case Worker Initial Verification",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Staff Muster",
+            "ESI/EPF"
+          ],
+          "escalationRole": "Matron"
+        },
+        {
+          "step": 4,
+          "name": "Bill Certification Matron",
+          "role": "Nursing Superintendent / Matron",
+          "dept": "Nursing & Wards",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Ward Cleanliness Certificate"
+          ],
+          "escalationRole": "Office Superintendent"
+        },
+        {
+          "step": 5,
+          "name": "Office Superintendent",
+          "role": "Office Superintendent",
+          "dept": "Hospital Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Attendance Reconciliation"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 6,
+          "name": "Administrative Officer",
+          "role": "Administrative Officer",
+          "dept": "Hospital Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Administrative Clearance"
+          ],
+          "escalationRole": "RMO"
+        },
+        {
+          "step": 7,
+          "name": "Resident Medical Officer (RMO)",
+          "role": "Resident Medical Officer",
+          "dept": "Clinical Services",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Clinical Operations Clearance"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 8,
+          "name": "MS Recommendation",
+          "role": "Medical Superintendent",
+          "dept": "Hospital Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "MS Forwarding Note"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 9,
+          "name": "Case Worker Consolidation",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Verified File Docket"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 10,
+          "name": "Superintendent Endorsement",
+          "role": "Superintendent",
+          "dept": "Central Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Superintendent Note"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 11,
+          "name": "AO Central Endorsement",
+          "role": "Administrative Officer",
+          "dept": "Central Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Central Endorsement"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 12,
+          "name": "Chief Accounts Officer (CAO)",
+          "role": "Chief Accounts Officer",
+          "dept": "Accounts Wing",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Audit Calculation Sheet"
+          ],
+          "escalationRole": "Financial Advisor"
+        },
+        {
+          "step": 13,
+          "name": "Financial Advisor (FA)",
+          "role": "Financial Advisor",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "FA Sanction Note"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 14,
+          "name": "Dean Sanction",
+          "role": "Dean & Director BMCRI",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 15,
+          "name": "Cash Section Pre-Audit",
+          "role": "Case Worker & FA",
+          "dept": "Cash & Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Voucher"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 16,
+          "name": "Dean Treasury Authorization & Payment",
+          "role": "Dean & Treasury",
+          "dept": "Treasury",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Treasury Disbursement Advice"
+          ],
+          "escalationRole": "Dean"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 26,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.502Z"
+    },
+    {
+      "id": "WF-07-VANIVILAS-HOSPITAL",
+      "index": 7,
+      "client": "BMCRI",
+      "unit": "Vanivilas Housekeeping and Security",
+      "category": "HEALTHCARE",
+      "serviceType": "Maternity & Children Hospital Sanitation",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 2,
+          "name": "MS",
+          "role": "Medical Superintendent",
+          "dept": "Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Docket"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 3,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Attendance Log"
+          ],
+          "escalationRole": "Matron"
+        },
+        {
+          "step": 4,
+          "name": "Bill Certification Matron",
+          "role": "Matron",
+          "dept": "Nursing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanitation Pass"
+          ],
+          "escalationRole": "Office Supt"
+        },
+        {
+          "step": 5,
+          "name": "Office Superintendent",
+          "role": "Office Superintendent",
+          "dept": "Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Scrutiny Sheet"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 6,
+          "name": "AO",
+          "role": "Administrative Officer",
+          "dept": "Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Admin Note"
+          ],
+          "escalationRole": "RMO"
+        },
+        {
+          "step": 7,
+          "name": "RMO",
+          "role": "Resident Medical Officer",
+          "dept": "Clinical",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Clinical Clearances"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 8,
+          "name": "MS Review",
+          "role": "Medical Superintendent",
+          "dept": "Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Forwarding Note"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 9,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Compiled File"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 10,
+          "name": "Superintendent",
+          "role": "Superintendent",
+          "dept": "Central Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "File Check"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 11,
+          "name": "A/O",
+          "role": "Administrative Officer",
+          "dept": "Central Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Clearance"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 12,
+          "name": "CAO",
+          "role": "Chief Accounts Officer",
+          "dept": "Accounts",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Audit Calculation"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 13,
+          "name": "F A",
+          "role": "Financial Advisor",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 14,
+          "name": "Dean",
+          "role": "Dean & Director",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Order"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 15,
+          "name": "Case Worker Cash Sections FA",
+          "role": "Cash Section",
+          "dept": "Cash Wing",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Voucher"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 16,
+          "name": "Dean Treasury Payment",
+          "role": "Dean & Treasury",
+          "dept": "Treasury",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Scroll"
+          ],
+          "escalationRole": "Dean"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 25,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.502Z"
+    },
+    {
+      "id": "WF-08-MINTO-HOSPITAL",
+      "index": 8,
+      "client": "BMCRI",
+      "unit": "Minto Housekeeping and Security",
+      "category": "HEALTHCARE",
+      "serviceType": "Ophthalmic Hospital Sanitation & Guarding",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 2,
+          "name": "MS",
+          "role": "Medical Superintendent",
+          "dept": "Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Docket"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 3,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Attendance Log"
+          ],
+          "escalationRole": "Matron"
+        },
+        {
+          "step": 4,
+          "name": "Bill Certification Matron",
+          "role": "Matron",
+          "dept": "Nursing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanitation Pass"
+          ],
+          "escalationRole": "Office Supt"
+        },
+        {
+          "step": 5,
+          "name": "Office Superintendent",
+          "role": "Office Superintendent",
+          "dept": "Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Scrutiny Sheet"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 6,
+          "name": "AO",
+          "role": "Administrative Officer",
+          "dept": "Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Admin Note"
+          ],
+          "escalationRole": "RMO"
+        },
+        {
+          "step": 7,
+          "name": "RMO",
+          "role": "Resident Medical Officer",
+          "dept": "Clinical",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Clinical Clearances"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 8,
+          "name": "MS Review",
+          "role": "Medical Superintendent",
+          "dept": "Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Forwarding Note"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 9,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Compiled File"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 10,
+          "name": "Superintendent",
+          "role": "Superintendent",
+          "dept": "Central Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "File Check"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 11,
+          "name": "A/O",
+          "role": "Administrative Officer",
+          "dept": "Central Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Clearance"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 12,
+          "name": "CAO",
+          "role": "Chief Accounts Officer",
+          "dept": "Accounts",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Audit Calculation"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 13,
+          "name": "F A",
+          "role": "Financial Advisor",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 14,
+          "name": "Dean",
+          "role": "Dean & Director",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Order"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 15,
+          "name": "Case Worker Cash Sections FA",
+          "role": "Cash Section",
+          "dept": "Cash Wing",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Voucher"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 16,
+          "name": "Dean Treasury Payment",
+          "role": "Dean & Treasury",
+          "dept": "Treasury",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Scroll"
+          ],
+          "escalationRole": "Dean"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 25,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-09-BMRCL-PROJECT",
+      "index": 9,
+      "client": "BMRCL",
+      "unit": "BMRCL Project Wing (80% Operational & 20% HR Streams)",
+      "category": "TRANSIT",
+      "serviceType": "Metro Rail Construction & Civil Infrastructure",
+      "billingCycle": "Milestone (Split 80/20)",
+      "isPilot": true,
+      "pilotRationale": "Primary Pilot 2: Split milestone billing where 80% operational milestone routes via CSO Office and GM Operations, and 20% statutory balance is routed through HR Verification.",
+      "stages": [
+        {
+          "step": 1,
+          "name": "Bill Submission to CSO Office",
+          "role": "Chief Security Officer",
+          "dept": "CSO Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Contractor Invoice",
+            "Work Completion Certificate"
+          ],
+          "escalationRole": "ASCO"
+        },
+        {
+          "step": 2,
+          "name": "Attendance & ASCO Approval",
+          "role": "Assistant Security / Civil Officer",
+          "dept": "Civil Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Site Attendance Muster",
+            "Quality Pass"
+          ],
+          "escalationRole": "CSO"
+        },
+        {
+          "step": 3,
+          "name": "CSO Approval",
+          "role": "Chief Security Officer",
+          "dept": "CSO Office",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "CSO Operational Clearance"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 4,
+          "name": "E-Office Uploading & GM Ops Approval",
+          "role": "Case Worker / GM Operations",
+          "dept": "Operations Directorate",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "E-Office Docket",
+            "GM Operational Sanction"
+          ],
+          "escalationRole": "AGM Finance"
+        },
+        {
+          "step": 5,
+          "name": "AGM Finance Verification",
+          "role": "Assistant General Manager (Finance)",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Contract Ledger Verification",
+            "TDS/GST Calculation"
+          ],
+          "escalationRole": "Finance Approval"
+        },
+        {
+          "step": 6,
+          "name": "Finance Approval & Sanction",
+          "role": "General Manager (Finance)",
+          "dept": "Corporate Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Financial Concurrence Order"
+          ],
+          "escalationRole": "Audit"
+        },
+        {
+          "step": 7,
+          "name": "Audit Certification & Payments",
+          "role": "Internal Auditor & Cashier",
+          "dept": "Audit & Disbursements",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Audit Certificate",
+            "Bank NEFT Scroll"
+          ],
+          "escalationRole": "Director (Finance)"
+        },
+        {
+          "step": 8,
+          "name": "20% Retention HR Verification & Release",
+          "role": "HR Manager & Cashier",
+          "dept": "HR & Finance",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Form V Statutory Muster",
+            "EPF/ESI Challan"
+          ],
+          "escalationRole": "GM (HR)"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 17,
+      "billingType": "Split Milestone Billing (80% Ops / 20% Retention)",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-10-BMRCL-REACH2E-3C",
+      "index": 10,
+      "client": "BMRCL",
+      "unit": "BMRCL Metro Security Reach 2E & 3C (80% & 20%)",
+      "category": "TRANSIT",
+      "serviceType": "Station Security Guarding Services",
+      "billingCycle": "Monthly (Split 80/20)",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Attendance & ASCO Approval",
+          "role": "ASCO",
+          "dept": "Security",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster",
+            "Guard Deployment Log"
+          ],
+          "escalationRole": "CSO"
+        },
+        {
+          "step": 2,
+          "name": "CSO Approval",
+          "role": "Chief Security Officer",
+          "dept": "CSO Office",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "CSO Sanction"
+          ],
+          "escalationRole": "GM Operations"
+        },
+        {
+          "step": 3,
+          "name": "E-Office Uploading & GM Ops Approval",
+          "role": "Case Worker / GM Ops",
+          "dept": "Operations",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "E-Office Docket"
+          ],
+          "escalationRole": "AGM Finance"
+        },
+        {
+          "step": 4,
+          "name": "AGM Finance",
+          "role": "AGM Finance",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Accounts Verification"
+          ],
+          "escalationRole": "GM Finance"
+        },
+        {
+          "step": 5,
+          "name": "Finance Approval",
+          "role": "GM Finance",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "Audit"
+        },
+        {
+          "step": 6,
+          "name": "Audit Certification & Payments",
+          "role": "Auditor & Cashier",
+          "dept": "Disbursements",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Audit Certificate",
+            "Payment Scroll"
+          ],
+          "escalationRole": "Director Finance"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 13,
+      "billingType": "Split Milestone Billing (80% Ops / 20% Retention)",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-11-BMRCL-REACH1",
+      "index": 11,
+      "client": "BMRCL",
+      "unit": "BMRCL Metro Security Reach - 1 (80% & 20%)",
+      "category": "TRANSIT",
+      "serviceType": "Metro Line 1 Security Guarding",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Bill Submission to CSO Office",
+          "role": "CSO Office",
+          "dept": "CSO",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Guard Logs"
+          ],
+          "escalationRole": "ASCO"
+        },
+        {
+          "step": 2,
+          "name": "Attendance & ASCO Approval",
+          "role": "ASCO",
+          "dept": "Security",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Deployment Muster"
+          ],
+          "escalationRole": "CSO"
+        },
+        {
+          "step": 3,
+          "name": "CSO Approval",
+          "role": "CSO",
+          "dept": "CSO Office",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Clearance"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 4,
+          "name": "E-Office Uploading & GM Ops Approval",
+          "role": "Case Worker / GM Ops",
+          "dept": "Operations",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "E-Docket"
+          ],
+          "escalationRole": "AGM Finance"
+        },
+        {
+          "step": 5,
+          "name": "AGM Finance",
+          "role": "AGM Finance",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Accounts Check"
+          ],
+          "escalationRole": "Finance Approval"
+        },
+        {
+          "step": 6,
+          "name": "Finance Approval",
+          "role": "GM Finance",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction"
+          ],
+          "escalationRole": "Audit"
+        },
+        {
+          "step": 7,
+          "name": "Audit Certification & Payments",
+          "role": "Auditor & Cashier",
+          "dept": "Disbursements",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Disbursement Advice"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 14,
+      "billingType": "Split Milestone Billing (80% Ops / 20% Retention)",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-12-BMRCL-METRO-TOM",
+      "index": 12,
+      "client": "BMRCL",
+      "unit": "BMRCL Metro Tom (80% & 20%)",
+      "category": "TRANSIT",
+      "serviceType": "Track Operations & Maintenance Staff",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Bill Submission",
+          "role": "Tom Cell",
+          "dept": "Operations",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Tom Log"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Attendance & Authorization",
+          "role": "Case Worker / Authorization",
+          "dept": "E-Office",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster"
+          ],
+          "escalationRole": "AGM Finance"
+        },
+        {
+          "step": 3,
+          "name": "AGM Finance",
+          "role": "AGM Finance",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Ledger Check"
+          ],
+          "escalationRole": "Finance Approval"
+        },
+        {
+          "step": 4,
+          "name": "Finance Approval",
+          "role": "GM Finance",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction"
+          ],
+          "escalationRole": "Audit"
+        },
+        {
+          "step": 5,
+          "name": "Audit Certification & Approval",
+          "role": "Internal Audit",
+          "dept": "Audit",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Audit Pass"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 6,
+          "name": "Payments",
+          "role": "Cash Section",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Bank Advice"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 10,
+      "billingType": "Split Milestone Billing (80% Ops / 20% Retention)",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-13-BOWRING-HOSPITAL",
+      "index": 13,
+      "client": "Bowring Hospital",
+      "unit": "Bowring & Lady Curzon Hospital and Gosha",
+      "category": "HEALTHCARE",
+      "serviceType": "Hospital Housekeeping & Sanitation",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Ward Certifications",
+          "role": "Ward In-Charge",
+          "dept": "Clinical Wards",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Ward Log"
+          ],
+          "escalationRole": "Matron"
+        },
+        {
+          "step": 2,
+          "name": "Matron Approval",
+          "role": "Matron",
+          "dept": "Nursing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanitation Report"
+          ],
+          "escalationRole": "RMO"
+        },
+        {
+          "step": 3,
+          "name": "RMO Scrutiny",
+          "role": "Resident Medical Officer",
+          "dept": "Medical Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Clinical Clearances"
+          ],
+          "escalationRole": "Nodal Officer"
+        },
+        {
+          "step": 4,
+          "name": "Nodal Officer Verification",
+          "role": "Nodal Officer (Hospital Services)",
+          "dept": "Quality Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Service Audit Note"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 5,
+          "name": "Medical Superintendent (MS)",
+          "role": "Medical Superintendent",
+          "dept": "Hospital Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Forwarding Note"
+          ],
+          "escalationRole": "Tapal"
+        },
+        {
+          "step": 6,
+          "name": "TAPAL Registration",
+          "role": "Tapal Clerk",
+          "dept": "Central Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Inward Slip"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 7,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "ESI/EPF",
+            "Attendance"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 8,
+          "name": "Cash Section Case Worker",
+          "role": "Cash Section Worker",
+          "dept": "Cash & Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Bill Calculation"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 9,
+          "name": "MS Review",
+          "role": "Medical Superintendent",
+          "dept": "Hospital Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Endorsement"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 10,
+          "name": "Financial Advisor (FA)",
+          "role": "Financial Advisor",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "FA Sanction Note"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 11,
+          "name": "Dean Sanction",
+          "role": "Dean & Director",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Dean Sanction Order"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 12,
+          "name": "Cash Section Accounts Payments",
+          "role": "Cash Section & Treasury",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Cheque / Advice"
+          ],
+          "escalationRole": "Dean"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 20,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-14-SABVMC-COLLEGE",
+      "index": 14,
+      "client": "SABVMC",
+      "unit": "SABVMC Atal Bihari Vajpayee Medical College",
+      "category": "HEALTHCARE",
+      "serviceType": "Campus Security & Hostel Housekeeping",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Nodal Officer Verification",
+          "role": "Nodal Officer",
+          "dept": "College Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Service Summary"
+          ],
+          "escalationRole": "Special Officer"
+        },
+        {
+          "step": 2,
+          "name": "Girls & Boys Wardens Approval",
+          "role": "Wardens & Special Officer",
+          "dept": "Hostels Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Hostel Attendance"
+          ],
+          "escalationRole": "Tapal"
+        },
+        {
+          "step": 3,
+          "name": "TAPAL Registration",
+          "role": "Tapal Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Inward Receipt"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 4,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "ESI/EPF Records"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 5,
+          "name": "Dean Approval",
+          "role": "Dean & Director",
+          "dept": "Executive Office",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Executive Sanction"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 6,
+          "name": "Case Worker Passing",
+          "role": "Case Worker",
+          "dept": "Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Voucher Bill"
+          ],
+          "escalationRole": "Accounts"
+        },
+        {
+          "step": 7,
+          "name": "Accounts Section Payments",
+          "role": "Accounts & Cashier",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Bank Remittance"
+          ],
+          "escalationRole": "Dean"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 10,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-15-CHARAKA-HOSPITAL",
+      "index": 15,
+      "client": "Charaka Hospital",
+      "unit": "Charaka Hospital Housekeeping & Security",
+      "category": "HEALTHCARE",
+      "serviceType": "Hospital Sanitation Services",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Certifications",
+          "role": "Ward In-Charge",
+          "dept": "Wards",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Daily Log"
+          ],
+          "escalationRole": "Matron"
+        },
+        {
+          "step": 2,
+          "name": "Matron Scrutiny",
+          "role": "Matron",
+          "dept": "Nursing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanitation Pass"
+          ],
+          "escalationRole": "Nodal Officer"
+        },
+        {
+          "step": 3,
+          "name": "Nodal Officer Review",
+          "role": "Nodal Officer",
+          "dept": "Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Review Note"
+          ],
+          "escalationRole": "Special Officer"
+        },
+        {
+          "step": 4,
+          "name": "Special Officer",
+          "role": "Special Officer",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Clearance Note"
+          ],
+          "escalationRole": "Tapal"
+        },
+        {
+          "step": 5,
+          "name": "TAPAL",
+          "role": "Tapal Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Inward Slip"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 6,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Rolls"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 7,
+          "name": "Dean Sanction",
+          "role": "Dean & Director",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "Accounts"
+        },
+        {
+          "step": 8,
+          "name": "Case Worker Accounts Section Payments",
+          "role": "Accounts & Cashier",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Advice"
+          ],
+          "escalationRole": "Dean"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 13,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-16-INDIRA-GANDHI",
+      "index": 16,
+      "client": "Indira Gandhi Hospital",
+      "unit": "Indira Gandhi Institute of Child Health",
+      "category": "HEALTHCARE",
+      "serviceType": "Paediatric Hospital Housekeeping & Security",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 2,
+          "name": "Director Initial Sign",
+          "role": "Director",
+          "dept": "Executive Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Routing Docket"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 3,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Staff Muster"
+          ],
+          "escalationRole": "Matron"
+        },
+        {
+          "step": 4,
+          "name": "Matron Certification",
+          "role": "Matron",
+          "dept": "Nursing Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Ward Log"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 5,
+          "name": "Medical Superintendent (MS)",
+          "role": "Medical Superintendent",
+          "dept": "Medical Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "MS Review"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 6,
+          "name": "Case Worker Audit Check",
+          "role": "Case Worker",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Tax Deduction Note"
+          ],
+          "escalationRole": "Accountant"
+        },
+        {
+          "step": 7,
+          "name": "Accountant Scrutiny",
+          "role": "Accountant",
+          "dept": "Accounts Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Ledger Sheet"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 8,
+          "name": "Superintendent & AO Review",
+          "role": "Superintendent / AO",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Administrative Review"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 9,
+          "name": "Director Financial Sanction",
+          "role": "Director",
+          "dept": "Executive Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Director Sanction Order"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 10,
+          "name": "AO Passing",
+          "role": "Administrative Officer",
+          "dept": "Administration",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 11,
+          "name": "Superintendent & Cash Section Payment",
+          "role": "Cash Section Worker",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Disbursement Advice"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 18,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-17-KIADB-HAROHALLI",
+      "index": 17,
+      "client": "KIADB",
+      "unit": "KIADB DO EE1 Office & Harohalli Industrial Area",
+      "category": "INDUSTRIAL",
+      "serviceType": "Industrial Infrastructure & Common Facilities",
+      "billingCycle": "Monthly / Milestone",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Contract Order"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Industrial Cell",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Measurement Book",
+            "Muster"
+          ],
+          "escalationRole": "Executive Engineer"
+        },
+        {
+          "step": 3,
+          "name": "Engineers Certifications",
+          "role": "Site Engineer / AEE",
+          "dept": "Engineering Division",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Site Inspection Note",
+            "Quality Pass"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 4,
+          "name": "Case Worker Docketing",
+          "role": "Case Worker",
+          "dept": "Industrial Cell",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Scrutiny File"
+          ],
+          "escalationRole": "Head Office"
+        },
+        {
+          "step": 5,
+          "name": "Head Office Approval",
+          "role": "General Manager (Admin)",
+          "dept": "KIADB Head Office",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Head Office Clearances"
+          ],
+          "escalationRole": "DC"
+        },
+        {
+          "step": 6,
+          "name": "DC Approval",
+          "role": "Development Commissioner (DC)",
+          "dept": "Executive Authority",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "DC Sanction Note"
+          ],
+          "escalationRole": "Finance Approval"
+        },
+        {
+          "step": 7,
+          "name": "Finance Approval",
+          "role": "Chief Financial Officer",
+          "dept": "Finance Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Financial Sanction Order"
+          ],
+          "escalationRole": "Executive Member"
+        },
+        {
+          "step": 8,
+          "name": "Executive Member (EM) Approval",
+          "role": "Executive Member (EM)",
+          "dept": "Board Secretariat",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "EM Board Clearance"
+          ],
+          "escalationRole": "EE"
+        },
+        {
+          "step": 9,
+          "name": "Executive Engineer (EE)",
+          "role": "Executive Engineer",
+          "dept": "Divisional Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Work Passing Order"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 10,
+          "name": "Payments",
+          "role": "Accounts & Cashier",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Scroll"
+          ],
+          "escalationRole": "CFO"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 21,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-18-KIADB-PEENYA",
+      "index": 18,
+      "client": "KIADB",
+      "unit": "KIADB Peenya, Awerahalli, Sompura, Dabaspete",
+      "category": "INDUSTRIAL",
+      "serviceType": "Industrial Estate Maintenance & Guarding",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Estate Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Attendance Log"
+          ],
+          "escalationRole": "AEE"
+        },
+        {
+          "step": 3,
+          "name": "Engineers Certifications",
+          "role": "Site Engineer",
+          "dept": "Engineering",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Site Inspection Report"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 4,
+          "name": "Case Worker Filing",
+          "role": "Case Worker",
+          "dept": "Estate Wing",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Docket"
+          ],
+          "escalationRole": "Head Office"
+        },
+        {
+          "step": 5,
+          "name": "Head Office Approval",
+          "role": "GM Industrial Areas",
+          "dept": "Head Office",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "HO Approval"
+          ],
+          "escalationRole": "DC"
+        },
+        {
+          "step": 6,
+          "name": "DC Approval",
+          "role": "Development Commissioner",
+          "dept": "Executive",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "DC Order"
+          ],
+          "escalationRole": "Finance"
+        },
+        {
+          "step": 7,
+          "name": "Finance Approval",
+          "role": "Finance Officer",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Note"
+          ],
+          "escalationRole": "EM"
+        },
+        {
+          "step": 8,
+          "name": "EM Approval",
+          "role": "Executive Member",
+          "dept": "Board",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "EM Clearance"
+          ],
+          "escalationRole": "EE"
+        },
+        {
+          "step": 9,
+          "name": "EE Endorsement",
+          "role": "Executive Engineer",
+          "dept": "Engineering",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Cashier"
+        },
+        {
+          "step": 10,
+          "name": "Payments",
+          "role": "Cash Section",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Bank Advice"
+          ],
+          "escalationRole": "CFO"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 20,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-19-KIADB-TECHPARKS",
+      "index": 19,
+      "client": "KIADB",
+      "unit": "KIADB SEZ, Aerospace, IT Park, Hardware Park Devanahalli",
+      "category": "INDUSTRIAL",
+      "serviceType": "Special Economic Zone & Hi-Tech Park Services",
+      "billingCycle": "Monthly / Milestone",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Devanahalli Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "BoQ Summary"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Tech Parks Cell",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster",
+            "EPF Records"
+          ],
+          "escalationRole": "Site Engineer"
+        },
+        {
+          "step": 3,
+          "name": "Engineers Certifications",
+          "role": "Executive / Site Engineer",
+          "dept": "Works Wing",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Field Measurement Book"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 4,
+          "name": "Case Worker Docketing",
+          "role": "Case Worker",
+          "dept": "Tech Parks Cell",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Scrutiny File"
+          ],
+          "escalationRole": "Head Office"
+        },
+        {
+          "step": 5,
+          "name": "Head Office Approval",
+          "role": "Chief Development Officer",
+          "dept": "Head Office",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "HO Approval Note"
+          ],
+          "escalationRole": "DC"
+        },
+        {
+          "step": 6,
+          "name": "DC Approval",
+          "role": "Development Commissioner",
+          "dept": "Executive",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "Finance"
+        },
+        {
+          "step": 7,
+          "name": "Finance Approval",
+          "role": "CFO",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Budget Clearance"
+          ],
+          "escalationRole": "EM"
+        },
+        {
+          "step": 8,
+          "name": "Executive Member (EM) Approval",
+          "role": "Executive Member",
+          "dept": "Board Secretariat",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Board Sanction"
+          ],
+          "escalationRole": "EE"
+        },
+        {
+          "step": 9,
+          "name": "Executive Engineer Passing",
+          "role": "Executive Engineer",
+          "dept": "Division",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Accounts"
+        },
+        {
+          "step": 10,
+          "name": "Payments",
+          "role": "Cash Section",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "NEFT Remittance Scroll"
+          ],
+          "escalationRole": "CFO"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 21,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-20-KIMO-DEO",
+      "index": 20,
+      "client": "KIMO",
+      "unit": "KIMO DEO Technicians and Group D",
+      "category": "HEALTHCARE",
+      "serviceType": "Hospital Paramedical & Data Entry Services",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Technician Muster"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 2,
+          "name": "Administrative Officer",
+          "role": "Administrative Officer (AO)",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Staffing Ledger"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 3,
+          "name": "Director Scrutiny",
+          "role": "Director KIMO",
+          "dept": "Executive Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Director Docket"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 4,
+          "name": "Chief Administrative Officer (CAO)",
+          "role": "CAO",
+          "dept": "General Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Administrative Sanction"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 5,
+          "name": "Financial Advisor (FA)",
+          "role": "Financial Advisor",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Budget Allocation"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 6,
+          "name": "Case Worker Detailed Check",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "EPF/ESI Records"
+          ],
+          "escalationRole": "RMO/MS"
+        },
+        {
+          "step": 7,
+          "name": "RMO / MS Bill Certification",
+          "role": "RMO / Medical Superintendent",
+          "dept": "Medical Directorate",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Hospital Deployment Certificate"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 8,
+          "name": "FA Financial Audit",
+          "role": "Financial Advisor",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Audit Concurrence"
+          ],
+          "escalationRole": "RMO/MS"
+        },
+        {
+          "step": 9,
+          "name": "RMO / MS & FA Joint Endorsement",
+          "role": "MS & FA",
+          "dept": "Joint Verification",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Joint Certificate"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 10,
+          "name": "Director & FA Sanction",
+          "role": "Director & FA",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Board Sanction Order"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 11,
+          "name": "Case Worker & FA Verification",
+          "role": "Case Worker & FA",
+          "dept": "Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Voucher Bill"
+          ],
+          "escalationRole": "Tally Section"
+        },
+        {
+          "step": 12,
+          "name": "Tally, Cheque Section & Director Payment",
+          "role": "Cheque Section & Director",
+          "dept": "Disbursements",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Cheque / Advice",
+            "Tally Voucher"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 23,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-21-KIMO-HK-SG",
+      "index": 21,
+      "client": "KIMO",
+      "unit": "KIMO Unit 1, 2, 3 HK ESM and SG",
+      "category": "HEALTHCARE",
+      "serviceType": "Hospital Housekeeping & Ex-Servicemen Security",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "AO Inward",
+          "role": "Administrative Officer",
+          "dept": "Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Guard Muster"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 2,
+          "name": "Director",
+          "role": "Director",
+          "dept": "Executive",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Executive Docket"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 3,
+          "name": "CAO",
+          "role": "Chief Administrative Officer",
+          "dept": "Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 4,
+          "name": "F A",
+          "role": "Financial Advisor",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Budget Clearance"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 5,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Rolls"
+          ],
+          "escalationRole": "RMO"
+        },
+        {
+          "step": 6,
+          "name": "RMO / MS Bill Certification",
+          "role": "RMO / MS",
+          "dept": "Clinical",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Cleanliness Certificate"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 7,
+          "name": "FA Financial Check",
+          "role": "Financial Advisor",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Accounts Scrutiny"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 8,
+          "name": "RMO / MS FA Review",
+          "role": "MS & FA",
+          "dept": "Joint Committee",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Joint Review"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 9,
+          "name": "Director FA Sanction",
+          "role": "Director & FA",
+          "dept": "Board",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 10,
+          "name": "Caseworker FA Passing",
+          "role": "Case Worker & FA",
+          "dept": "Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Voucher"
+          ],
+          "escalationRole": "Cheque Section"
+        },
+        {
+          "step": 11,
+          "name": "Cheque Section & Director Payment",
+          "role": "Cheque Section & Director",
+          "dept": "Disbursements",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Bank Remittance"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 20,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-22-KPTCL",
+      "index": 22,
+      "client": "KPTCL",
+      "unit": "KPTCL Transmission Sub-Stations Wing",
+      "category": "ENTERPRISE",
+      "serviceType": "Sub-station Security & Electrical Maintenance Support",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Registry Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Station Deployment Log"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Transmission Section",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Shift Muster",
+            "ESI/EPF"
+          ],
+          "escalationRole": "Admin Head"
+        },
+        {
+          "step": 3,
+          "name": "Admin Officer Verification",
+          "role": "Administrative Officer",
+          "dept": "Zonal Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Zonal Admin Clearance"
+          ],
+          "escalationRole": "Head Office"
+        },
+        {
+          "step": 4,
+          "name": "Head Office Approval",
+          "role": "General Manager (HR & Admin)",
+          "dept": "Corporate Office",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Corporate Concurrence"
+          ],
+          "escalationRole": "Finance Approval"
+        },
+        {
+          "step": 5,
+          "name": "Finance Approval",
+          "role": "Director (Finance)",
+          "dept": "Corporate Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Financial Sanction Note"
+          ],
+          "escalationRole": "Admin"
+        },
+        {
+          "step": 6,
+          "name": "Admin Section Endorsement",
+          "role": "Administrative Officer",
+          "dept": "Administration",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Admin Release Order"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 7,
+          "name": "Case Worker Bill Passing",
+          "role": "Case Worker",
+          "dept": "Accounts Directorate",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 8,
+          "name": "Disbursement & Payments",
+          "role": "Cash Section",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "NEFT Payment Scroll"
+          ],
+          "escalationRole": "Director (Finance)"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 13,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-23-KSMCL",
+      "index": 23,
+      "client": "KSMCL",
+      "unit": "KSMCL Mineral Exploration & Mining Areas",
+      "category": "ENTERPRISE",
+      "serviceType": "Mining Site Security, Heavy Weighbridge & Plant Labour",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal Registration",
+          "role": "Tapal Clerk",
+          "dept": "Mining Division Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Contractor Invoice",
+            "Site Log"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Operations Cell",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Weighbridge / Labour Muster",
+            "Statutory Proofs"
+          ],
+          "escalationRole": "Mines Certification"
+        },
+        {
+          "step": 3,
+          "name": "Mines Operations Certification",
+          "role": "Mines Manager / In-Charge",
+          "dept": "Mine Operations",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Mining Site Operations Certificate"
+          ],
+          "escalationRole": "Internal Audit"
+        },
+        {
+          "step": 4,
+          "name": "Internal Audit Certification",
+          "role": "Auditor",
+          "dept": "Audit Wing",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Audit Compliance Note"
+          ],
+          "escalationRole": "Finance Approval"
+        },
+        {
+          "step": 5,
+          "name": "Finance Approval",
+          "role": "General Manager (Finance)",
+          "dept": "Corporate Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Budget Clearance"
+          ],
+          "escalationRole": "Managing Director"
+        },
+        {
+          "step": 6,
+          "name": "Managing Director (MD) Approval",
+          "role": "Managing Director",
+          "dept": "Executive Council",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "MD Sanction Order"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 7,
+          "name": "Case Worker Filing",
+          "role": "Case Worker",
+          "dept": "Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Approved Docket"
+          ],
+          "escalationRole": "Accounts"
+        },
+        {
+          "step": 8,
+          "name": "Accounts Pre-check",
+          "role": "Senior Accountant",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Tax Deduction Voucher"
+          ],
+          "escalationRole": "Finance"
+        },
+        {
+          "step": 9,
+          "name": "Finance Final Approval & Payment",
+          "role": "Disbursements / GM Finance",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Bank Transfer Advice"
+          ],
+          "escalationRole": "MD"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 17,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-24-KUMARA-KRUPA-BLR",
+      "index": 24,
+      "client": "Kumara Krupa",
+      "unit": "Kumara Krupa State Guest House Bangalore",
+      "category": "ENTERPRISE",
+      "serviceType": "VIP Protocol Hospitality & Facility Management",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Duty Roaster"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Guest House Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Staff Muster",
+            "EPF/ESI"
+          ],
+          "escalationRole": "Manager"
+        },
+        {
+          "step": 3,
+          "name": "Guest House Manager",
+          "role": "Manager (Hospitality)",
+          "dept": "Guest House Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Guest House Occupancy Summary"
+          ],
+          "escalationRole": "Accounts Superintendent"
+        },
+        {
+          "step": 4,
+          "name": "Accounts Superintendent",
+          "role": "Accounts Superintendent",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Calculation Docket"
+          ],
+          "escalationRole": "Special Officer"
+        },
+        {
+          "step": 5,
+          "name": "Special Officer Review",
+          "role": "Special Officer (Protocol)",
+          "dept": "Chief Secretariat",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Protocol Clearance"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 6,
+          "name": "Director Approval",
+          "role": "Director of Hospitality",
+          "dept": "Executive Directorate",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Executive Sanction Note"
+          ],
+          "escalationRole": "Special Officer"
+        },
+        {
+          "step": 7,
+          "name": "Special Officer Concurrence",
+          "role": "Special Officer",
+          "dept": "Secretariat",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Accounts Superintendent"
+        },
+        {
+          "step": 8,
+          "name": "Accounts Superintendent & Manager",
+          "role": "Accounts Supt & Manager",
+          "dept": "Accounts Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Pre-payment Voucher"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 9,
+          "name": "Case Worker Final Voucher",
+          "role": "Case Worker",
+          "dept": "Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passed Bill Docket"
+          ],
+          "escalationRole": "Cashier"
+        },
+        {
+          "step": 10,
+          "name": "Disbursement & Payments",
+          "role": "Treasury / Cash Section",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Treasury Payment Advice"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 17,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-25-KUMARA-KRUPA-MYS",
+      "index": 25,
+      "client": "Kumara Krupa",
+      "unit": "Kumara Krupa State Guest House Mysore",
+      "category": "ENTERPRISE",
+      "serviceType": "Heritage State Guest House Hospitality Services",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Rolls"
+          ],
+          "escalationRole": "Manager"
+        },
+        {
+          "step": 3,
+          "name": "Manager Scrutiny",
+          "role": "Manager",
+          "dept": "Guest House Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Service Summary"
+          ],
+          "escalationRole": "Accounts Supt"
+        },
+        {
+          "step": 4,
+          "name": "Accounts Superintendent",
+          "role": "Accounts Supt",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Calculation Sheet"
+          ],
+          "escalationRole": "Special Officer"
+        },
+        {
+          "step": 5,
+          "name": "Special Officer Review",
+          "role": "Special Officer",
+          "dept": "Secretariat",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Special Clearance"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 6,
+          "name": "Director Approval",
+          "role": "Director",
+          "dept": "Executive",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "Special Officer"
+        },
+        {
+          "step": 7,
+          "name": "Special Officer Concurrence",
+          "role": "Special Officer",
+          "dept": "Secretariat",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Note"
+          ],
+          "escalationRole": "Accounts Supt"
+        },
+        {
+          "step": 8,
+          "name": "Accounts Superintendent & Manager",
+          "role": "Accounts Supt & Manager",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Pre-payment Voucher"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 9,
+          "name": "Case Worker Passing",
+          "role": "Case Worker",
+          "dept": "Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Order"
+          ],
+          "escalationRole": "Cashier"
+        },
+        {
+          "step": 10,
+          "name": "Disbursement & Payments",
+          "role": "Cash Section",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Bank Remittance"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 17,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-26-PMSSY",
+      "index": 26,
+      "client": "PMSSY",
+      "unit": "PMSSY Super Speciality Hospital",
+      "category": "HEALTHCARE",
+      "serviceType": "Super Speciality Hospital Sanitation & Support",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker Initial Verification",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Attendance Log"
+          ],
+          "escalationRole": "Certification"
+        },
+        {
+          "step": 3,
+          "name": "Certification Officer",
+          "role": "Inspecting Officer",
+          "dept": "Quality Wing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Quality Certificate"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 4,
+          "name": "Administrative Officer",
+          "role": "AO",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Admin Clearance"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 5,
+          "name": "Financial Advisor (FA)",
+          "role": "Financial Advisor",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Budget Note"
+          ],
+          "escalationRole": "Special Officer"
+        },
+        {
+          "step": 6,
+          "name": "Special Officer Sanction",
+          "role": "Special Officer",
+          "dept": "Executive Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 7,
+          "name": "FA Financial Clearance",
+          "role": "Financial Advisor",
+          "dept": "Finance",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "FA Concurrence"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 8,
+          "name": "Case Worker Accounts Processing",
+          "role": "Case Worker",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Voucher Bill"
+          ],
+          "escalationRole": "Cashier"
+        },
+        {
+          "step": 9,
+          "name": "Payments",
+          "role": "Cash Section",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Advice"
+          ],
+          "escalationRole": "Special Officer"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 15,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-27-SANJAY-GANDHI-HK",
+      "index": 27,
+      "client": "Sanjay Gandhi",
+      "unit": "Sanjay Gandhi Hospital (Housekeeping Wing)",
+      "category": "HEALTHCARE",
+      "serviceType": "Hospital Housekeeping & Sanitation",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 2,
+          "name": "Director Initial Signature",
+          "role": "Director",
+          "dept": "Executive Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Docket Routing"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 3,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Rolls"
+          ],
+          "escalationRole": "Matron"
+        },
+        {
+          "step": 4,
+          "name": "Matron Sanitation Certification",
+          "role": "Matron",
+          "dept": "Nursing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Ward Log"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 5,
+          "name": "Medical Superintendent (MS)",
+          "role": "Medical Superintendent",
+          "dept": "Hospital Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "MS Review"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 6,
+          "name": "Case Worker Consolidation",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Verified File"
+          ],
+          "escalationRole": "Accountant"
+        },
+        {
+          "step": 7,
+          "name": "Accountant Scrutiny",
+          "role": "Accountant",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Tax Sheet"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 8,
+          "name": "Superintendent & FO Review",
+          "role": "Superintendent / FO",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Audit Clearance"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 9,
+          "name": "Director Sanction",
+          "role": "Director",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "FO"
+        },
+        {
+          "step": 10,
+          "name": "Finance Officer (FO) Passing",
+          "role": "FO",
+          "dept": "Finance Directorate",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 11,
+          "name": "Superintendent, Case Worker & Cash Section Payment",
+          "role": "Cash Section",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Advice"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 17,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.503Z"
+    },
+    {
+      "id": "WF-28-SANJAY-GANDHI-SG",
+      "index": 28,
+      "client": "Sanjay Gandhi",
+      "unit": "Sanjay Gandhi Hospital (Security Guards Wing)",
+      "category": "HEALTHCARE",
+      "serviceType": "Hospital Security Guarding & Perimeter Safety",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 2,
+          "name": "Director Initial Signature",
+          "role": "Director",
+          "dept": "Executive Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Docket Routing"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 3,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Rolls"
+          ],
+          "escalationRole": "Matron"
+        },
+        {
+          "step": 4,
+          "name": "Matron / Security Incharge",
+          "role": "Security Incharge",
+          "dept": "Hospital Security",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Guard Post Log"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 5,
+          "name": "Medical Superintendent (MS)",
+          "role": "Medical Superintendent",
+          "dept": "Hospital Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "MS Review"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 6,
+          "name": "Case Worker Consolidation",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Verified File"
+          ],
+          "escalationRole": "Accountant"
+        },
+        {
+          "step": 7,
+          "name": "Accountant Scrutiny",
+          "role": "Accountant",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Tax Sheet"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 8,
+          "name": "Superintendent & FO Review",
+          "role": "Superintendent / FO",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Audit Clearance"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 9,
+          "name": "Director Sanction",
+          "role": "Director",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "FO"
+        },
+        {
+          "step": 10,
+          "name": "Finance Officer (FO) Passing",
+          "role": "FO",
+          "dept": "Finance Directorate",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 11,
+          "name": "Superintendent, Case Worker & Cash Section Payment",
+          "role": "Cash Section",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Advice"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 17,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.504Z"
+    },
+    {
+      "id": "WF-29-SANJAY-GANDHI-STAFF",
+      "index": 29,
+      "client": "Sanjay Gandhi",
+      "unit": "Sanjay Gandhi Hospital (Outsourced Support Staff)",
+      "category": "HEALTHCARE",
+      "serviceType": "Ward Attendants & Paramedical Support Staff",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Registry",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 2,
+          "name": "Director Initial Signature",
+          "role": "Director",
+          "dept": "Executive Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Docket Routing"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 3,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Rolls"
+          ],
+          "escalationRole": "Matron"
+        },
+        {
+          "step": 4,
+          "name": "Matron Ward Certification",
+          "role": "Matron",
+          "dept": "Nursing",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Ward Log"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 5,
+          "name": "Medical Superintendent (MS)",
+          "role": "Medical Superintendent",
+          "dept": "Hospital Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "MS Review"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 6,
+          "name": "Case Worker Consolidation",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Verified File"
+          ],
+          "escalationRole": "Accountant"
+        },
+        {
+          "step": 7,
+          "name": "Accountant Scrutiny",
+          "role": "Accountant",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Tax Sheet"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 8,
+          "name": "Superintendent & FO Review",
+          "role": "Superintendent / FO",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Audit Clearance"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 9,
+          "name": "Director Sanction",
+          "role": "Director",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "FO"
+        },
+        {
+          "step": 10,
+          "name": "Finance Officer (FO) Passing",
+          "role": "FO",
+          "dept": "Finance Directorate",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Cash Section"
+        },
+        {
+          "step": 11,
+          "name": "Superintendent, Case Worker & Cash Section Payment",
+          "role": "Cash Section",
+          "dept": "Treasury",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Advice"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 17,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.504Z"
+    },
+    {
+      "id": "WF-30-TECC",
+      "index": 30,
+      "client": "BMCRI",
+      "unit": "TECC Trauma Care Centre / BMCRI",
+      "category": "HEALTHCARE",
+      "serviceType": "Trauma Care Emergency Sanitation & Security",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Staff Muster"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 3,
+          "name": "AO",
+          "role": "Administrative Officer",
+          "dept": "Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Admin Note"
+          ],
+          "escalationRole": "Special Officer"
+        },
+        {
+          "step": 4,
+          "name": "Special Officer",
+          "role": "Special Officer",
+          "dept": "Trauma Care",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Emergency Services Note"
+          ],
+          "escalationRole": "BMCRI Case Worker"
+        },
+        {
+          "step": 5,
+          "name": "BMCRI Case Worker",
+          "role": "BMCRI Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Central Muster"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 6,
+          "name": "Superintendent",
+          "role": "Superintendent",
+          "dept": "Central Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Scrutiny Sheet"
+          ],
+          "escalationRole": "AO"
+        },
+        {
+          "step": 7,
+          "name": "AO Central Review",
+          "role": "AO",
+          "dept": "Central Admin",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Clearance"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 8,
+          "name": "CAO",
+          "role": "Chief Accounts Officer",
+          "dept": "Accounts",
+          "slaDays": 3,
+          "mandatoryDocs": [
+            "Tax Deduction Note"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 9,
+          "name": "FA",
+          "role": "Financial Advisor",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 10,
+          "name": "Dean Sanction",
+          "role": "Dean & Director",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanction Order"
+          ],
+          "escalationRole": "Special Officer"
+        },
+        {
+          "step": 11,
+          "name": "TECC Case Worker & FA Review",
+          "role": "Case Worker & FA",
+          "dept": "Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Voucher"
+          ],
+          "escalationRole": "Cashier"
+        },
+        {
+          "step": 12,
+          "name": "Payments",
+          "role": "Cash Section",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Advice"
+          ],
+          "escalationRole": "Dean"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 20,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.504Z"
+    },
+    {
+      "id": "WF-31-GKVK",
+      "index": 31,
+      "client": "GKVK",
+      "unit": "GKVK University of Agricultural Sciences",
+      "category": "ENTERPRISE",
+      "serviceType": "Campus Farm Labour & Security Services",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Registrar Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Estate Officer"
+        },
+        {
+          "step": 2,
+          "name": "Estate Officer Scrutiny",
+          "role": "Estate Officer",
+          "dept": "Estate Management",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Farm Deployment Log"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 3,
+          "name": "Case Worker Initial Verification",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Biometric Muster"
+          ],
+          "escalationRole": "Bill Certification"
+        },
+        {
+          "step": 4,
+          "name": "Bill Certification Officer",
+          "role": "Inspecting Officer",
+          "dept": "Field Verification",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Field Measurement Certificate"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 5,
+          "name": "Case Worker Consolidation",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Compiled File"
+          ],
+          "escalationRole": "Engineer"
+        },
+        {
+          "step": 6,
+          "name": "Executive Engineer Approval",
+          "role": "University Engineer",
+          "dept": "Works Division",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Engineering Sanction"
+          ],
+          "escalationRole": "Accountant"
+        },
+        {
+          "step": 7,
+          "name": "Accountant Scrutiny",
+          "role": "Senior Accountant",
+          "dept": "Comptroller Office",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Audit Calculations"
+          ],
+          "escalationRole": "BR Section"
+        },
+        {
+          "step": 8,
+          "name": "Budget & Reconciliation (BR)",
+          "role": "BR Officer",
+          "dept": "Comptroller Office",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Budget Head Validation"
+          ],
+          "escalationRole": "Comptroller Superintendent"
+        },
+        {
+          "step": 9,
+          "name": "Comptroller Section Superintendent",
+          "role": "Superintendent",
+          "dept": "Comptroller Office",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Comptroller"
+        },
+        {
+          "step": 10,
+          "name": "Comptroller Payments",
+          "role": "Comptroller / Finance Officer",
+          "dept": "Disbursements",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Bank Remittance Advice"
+          ],
+          "escalationRole": "Vice Chancellor"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 18,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.504Z"
+    },
+    {
+      "id": "WF-32-NCBS",
+      "index": 32,
+      "client": "NCBS",
+      "unit": "NCBS National Centre for Biological Sciences",
+      "category": "ENTERPRISE",
+      "serviceType": "Research Laboratory Facility & Security Support",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Inward Reception Clerk",
+          "dept": "Reception / Inward",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice",
+            "Service Summary"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker Scrutiny",
+          "role": "Case Worker",
+          "dept": "Purchase & Stores",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Rolls",
+            "EPF/ESI proof"
+          ],
+          "escalationRole": "Security In-Charge"
+        },
+        {
+          "step": 3,
+          "name": "Bill Certification & Security In-Charge",
+          "role": "Security In-Charge",
+          "dept": "Campus Safety",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Safety Inspection Pass"
+          ],
+          "escalationRole": "Accounts"
+        },
+        {
+          "step": 4,
+          "name": "Accounts Section Approval",
+          "role": "Accounts Officer",
+          "dept": "Finance",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Tax TDS Sheet"
+          ],
+          "escalationRole": "Superintendent"
+        },
+        {
+          "step": 5,
+          "name": "Superintendent Scrutiny",
+          "role": "Office Superintendent",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Audit Scrutiny Sheet"
+          ],
+          "escalationRole": "Cheque Section"
+        },
+        {
+          "step": 6,
+          "name": "Cheque Section Preparation",
+          "role": "Cheque Officer",
+          "dept": "Finance",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Cheque / NEFT Docket"
+          ],
+          "escalationRole": "Dean / Head Finance"
+        },
+        {
+          "step": 7,
+          "name": "Final Disbursement & Payments",
+          "role": "Head of Finance / Cashier",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Bank Advice"
+          ],
+          "escalationRole": "Director NCBS"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 11,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.504Z"
+    },
+    {
+      "id": "WF-33-HIMS",
+      "index": 33,
+      "client": "HIMS",
+      "unit": "Hassan Institute of Medical Sciences",
+      "category": "HEALTHCARE",
+      "serviceType": "Hospital Housekeeping, Wards & Security",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Muster Summary"
+          ],
+          "escalationRole": "Bill Certification"
+        },
+        {
+          "step": 3,
+          "name": "Bill Certification Officer",
+          "role": "Inspecting Officer",
+          "dept": "Hospital Inspection",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Sanitation Quality Note"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 4,
+          "name": "Case Worker Docketing",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Docket"
+          ],
+          "escalationRole": "RMO"
+        },
+        {
+          "step": 5,
+          "name": "Resident Medical Officer (RMO)",
+          "role": "RMO",
+          "dept": "Medical Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Clinical Clearances"
+          ],
+          "escalationRole": "MS"
+        },
+        {
+          "step": 6,
+          "name": "Medical Superintendent (MS)",
+          "role": "Medical Superintendent",
+          "dept": "Hospital Admin",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "MS Forwarding Note"
+          ],
+          "escalationRole": "CAO"
+        },
+        {
+          "step": 7,
+          "name": "Chief Administrative Officer (CAO)",
+          "role": "CAO",
+          "dept": "Administration",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Administrative Clearance"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 8,
+          "name": "Financial Advisor (FA)",
+          "role": "Financial Advisor",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Financial Sanction Note"
+          ],
+          "escalationRole": "Director"
+        },
+        {
+          "step": 9,
+          "name": "Director Approval",
+          "role": "Director HIMS",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Director Sanction Order"
+          ],
+          "escalationRole": "DC-Bill"
+        },
+        {
+          "step": 10,
+          "name": "DC - Bill Verification",
+          "role": "DC Bill Section",
+          "dept": "Pre-Audit",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "DC Bill Voucher"
+          ],
+          "escalationRole": "Accounts"
+        },
+        {
+          "step": 11,
+          "name": "Accounts Final Clearance",
+          "role": "Senior Accounts Officer",
+          "dept": "Accounts",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Passing Warrant"
+          ],
+          "escalationRole": "Cashier"
+        },
+        {
+          "step": 12,
+          "name": "Payments",
+          "role": "Cash Section / Treasury",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Payment Scroll"
+          ],
+          "escalationRole": "Director"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 20,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.504Z"
+    },
+    {
+      "id": "WF-34-YIMS",
+      "index": 34,
+      "client": "YIMS",
+      "unit": "Yadgiri Institute of Medical Sciences",
+      "category": "HEALTHCARE",
+      "serviceType": "Hospital Housekeeping & Security Support",
+      "billingCycle": "Monthly",
+      "isPilot": false,
+      "stages": [
+        {
+          "step": 1,
+          "name": "Tapal",
+          "role": "Tapal Clerk",
+          "dept": "Inward Office",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Invoice"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 2,
+          "name": "Case Worker Initial Verification",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Staff Muster"
+          ],
+          "escalationRole": "Bill Certification"
+        },
+        {
+          "step": 3,
+          "name": "Bill Certification",
+          "role": "Inspection Officer",
+          "dept": "Hospital Wards",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Cleanliness Certificate"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 4,
+          "name": "Case Worker Processing",
+          "role": "Case Worker",
+          "dept": "Establishment",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Docket"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 5,
+          "name": "Financial Advisor (FA) Initial Review",
+          "role": "Financial Advisor",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "FA Review Note"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 6,
+          "name": "Dean Sanction",
+          "role": "Dean & Director",
+          "dept": "Executive Council",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Dean Sanction Order"
+          ],
+          "escalationRole": "FA"
+        },
+        {
+          "step": 7,
+          "name": "FA Financial Concurrence",
+          "role": "Financial Advisor",
+          "dept": "Finance Directorate",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Concurrence Warrant"
+          ],
+          "escalationRole": "Case Worker"
+        },
+        {
+          "step": 8,
+          "name": "Case Worker & Cheque Section",
+          "role": "Case Worker & Cheque Section",
+          "dept": "Accounts",
+          "slaDays": 2,
+          "mandatoryDocs": [
+            "Cheque Preparation Note"
+          ],
+          "escalationRole": "Dean"
+        },
+        {
+          "step": 9,
+          "name": "Dean Final Payment Sign-off",
+          "role": "Dean & Director",
+          "dept": "Executive Council",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Final Payment Order"
+          ],
+          "escalationRole": "Treasury"
+        },
+        {
+          "step": 10,
+          "name": "Disbursement & Payments",
+          "role": "Treasury / Cash Section",
+          "dept": "Disbursements",
+          "slaDays": 1,
+          "mandatoryDocs": [
+            "Bank Remittance Scroll"
+          ],
+          "escalationRole": "Dean"
+        }
+      ],
+      "status": "ACTIVE",
+      "totalSlaDays": 16,
+      "billingType": "Monthly Running Account (RA) Bill",
+      "updatedAt": "2026-10-15T05:29:42.504Z"
+    }
+  ],
+  "roles": [
+    {
+      "id": "RL-001",
+      "code": "AE",
+      "name": "Assistant Engineer",
+      "level": "Field",
+      "authority": "Field Scrutiny, MB Measurements, and Site Inspection",
+      "slaHours": 24,
+      "escalationRole": "AEE"
+    },
+    {
+      "id": "RL-002",
+      "code": "AEE",
+      "name": "Assistant Executive Engineer",
+      "level": "Field",
+      "authority": "25% Statutory Check-Measurement & Technical Sanction Parity",
+      "slaHours": 48,
+      "escalationRole": "EE"
+    },
+    {
+      "id": "RL-003",
+      "code": "EE",
+      "name": "Executive Engineer",
+      "level": "Departmental",
+      "authority": "Divisional Directorate Scrutiny & Sanction Endorsement",
+      "slaHours": 48,
+      "escalationRole": "JC"
+    },
+    {
+      "id": "RL-004",
+      "code": "JC",
+      "name": "Joint Commissioner",
+      "level": "Executive",
+      "authority": "Zonal Executive Sanction & Policy Approval",
+      "slaHours": 72,
+      "escalationRole": "COMMR"
+    },
+    {
+      "id": "RL-005",
+      "code": "COMMR",
+      "name": "Special / Addl. Commissioner",
+      "level": "Executive",
+      "authority": "High-Value Administrative Sanction (> ₹ 25L)",
+      "slaHours": 72,
+      "escalationRole": "CEO"
+    },
+    {
+      "id": "RL-006",
+      "code": "DCF",
+      "name": "Deputy Controller of Finance",
+      "level": "Finance",
+      "authority": "Pre-Audit, Budget Concordance, and DC Bill Passing",
+      "slaHours": 48,
+      "escalationRole": "CFO"
+    },
+    {
+      "id": "RL-007",
+      "code": "TAPAL",
+      "name": "Tapal & Inward Clerk",
+      "level": "Registry",
+      "authority": "Docket Registration, Work Order Verification & File Dispatch",
+      "slaHours": 24,
+      "escalationRole": "AEE"
+    },
+    {
+      "id": "RL-008",
+      "code": "CASEWORKER",
+      "name": "Case Worker / Inward Section",
+      "level": "Administration",
+      "authority": "Document Completeness, Attendance Register, and Rate Concordance",
+      "slaHours": 48,
+      "escalationRole": "ACCOUNTS_SUPT"
+    },
+    {
+      "id": "RL-009",
+      "code": "MATRON",
+      "name": "Matron / Nursing Superintendent",
+      "level": "Field",
+      "authority": "Ward Cleanliness, Linen, and Hygiene Inspection Certification",
+      "slaHours": 24,
+      "escalationRole": "RMO"
+    },
+    {
+      "id": "RL-010",
+      "code": "RMO",
+      "name": "Resident Medical Officer",
+      "level": "Field",
+      "authority": "Hospital Operational Review and Sanitation Concurrence",
+      "slaHours": 48,
+      "escalationRole": "MS"
+    },
+    {
+      "id": "RL-011",
+      "code": "MS",
+      "name": "Medical Superintendent",
+      "level": "Departmental",
+      "authority": "Hospital Directorate Technical & Operational Approval",
+      "slaHours": 48,
+      "escalationRole": "DEAN"
+    },
+    {
+      "id": "RL-012",
+      "code": "DEAN",
+      "name": "Dean / Director",
+      "level": "Executive",
+      "authority": "Institutional Executive Clearance & Treasury Payment Sanction",
+      "slaHours": 72,
+      "escalationRole": "CEO"
+    },
+    {
+      "id": "RL-013",
+      "code": "FA",
+      "name": "Financial Advisor / CAO",
+      "level": "Finance",
+      "authority": "Statutory Deductions (TDS, GST, Cess) and Pre-Audit Clearance",
+      "slaHours": 48,
+      "escalationRole": "DEAN"
+    },
+    {
+      "id": "RL-014",
+      "code": "CSO",
+      "name": "Chief Security Officer",
+      "level": "Transit Ops",
+      "authority": "Transit Station Safety, Attendance & Operational Certification",
+      "slaHours": 48,
+      "escalationRole": "GM_OPS"
+    },
+    {
+      "id": "RL-015",
+      "code": "GM_OPS",
+      "name": "General Manager (Operations)",
+      "level": "Transit Ops",
+      "authority": "80% Milestone Operational Clearance & E-Office Endorsement",
+      "slaHours": 48,
+      "escalationRole": "AGM_FIN"
+    },
+    {
+      "id": "RL-016",
+      "code": "AGM_FIN",
+      "name": "AGM Finance (Metro)",
+      "level": "Finance",
+      "authority": "Corporate Finance Scrutiny & Retention Verification",
+      "slaHours": 48,
+      "escalationRole": "DIR_FIN"
+    },
+    {
+      "id": "RL-017",
+      "code": "CASHIER",
+      "name": "Cash Section & Treasury Officer",
+      "level": "Treasury",
+      "authority": "Cheque Writing, RTGS Scroll Generation & Bank Remittance",
+      "slaHours": 24,
+      "escalationRole": "DCF"
+    },
+    {
+      "id": "RL-018",
+      "code": "VIGILANCE",
+      "name": "Vigilance & Labour Officer",
+      "level": "Compliance",
+      "authority": "Biometric Attendance, Form V Muster, EPF/ESI Verification",
+      "slaHours": 48,
+      "escalationRole": "EE"
+    }
+  ],
+  "persons": [
+    {
+      "id": "PS-001",
+      "employeeId": "EMP-BBMP-1042",
+      "name": "Dr. Priya Sharma",
+      "roleCode": "AEE",
+      "roleName": "Assistant Executive Engineer",
+      "department": "BBMP Field Sub-Division",
+      "unitCode": "UN-001",
+      "clientCode": "BBMP",
+      "email": "priya.sharma@bbmp.gov.in",
+      "phone": "+91 98450 11223",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PS-002",
+      "employeeId": "EMP-BBMP-1088",
+      "name": "K. Venkatesh",
+      "roleCode": "AE",
+      "roleName": "Assistant Engineer",
+      "department": "Ward 42 Engineering",
+      "unitCode": "UN-001",
+      "clientCode": "BBMP",
+      "email": "k.venkatesh@bbmp.gov.in",
+      "phone": "+91 98450 22334",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PS-003",
+      "employeeId": "EMP-BBMP-0402",
+      "name": "Rajesh Kumar",
+      "roleCode": "EE",
+      "roleName": "Executive Engineer",
+      "department": "Divisional Directorate",
+      "unitCode": "UN-001",
+      "clientCode": "BBMP",
+      "email": "rajesh.kumar@bbmp.gov.in",
+      "phone": "+91 98450 33445",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PS-004",
+      "employeeId": "EMP-BBMP-0911",
+      "name": "S. Natarajan",
+      "roleCode": "VIGILANCE",
+      "roleName": "Labour Officer",
+      "department": "Labour Welfare Wing",
+      "unitCode": "UN-001",
+      "clientCode": "BBMP",
+      "email": "s.natarajan@bbmp.gov.in",
+      "phone": "+91 98450 44556",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PS-005",
+      "employeeId": "EMP-BBMP-1205",
+      "name": "M. Ramesh",
+      "roleCode": "TAPAL",
+      "roleName": "Tapal Clerk",
+      "department": "Inward Registry",
+      "unitCode": "UN-001",
+      "clientCode": "BBMP",
+      "email": "m.ramesh@bbmp.gov.in",
+      "phone": "+91 98450 55667",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PS-006",
+      "employeeId": "EMP-BMRC-0018",
+      "name": "R. Chandrashekhar, KAS",
+      "roleCode": "GM_OPS",
+      "roleName": "General Manager (Operations)",
+      "department": "Metro Operations Wing",
+      "unitCode": "UN-006",
+      "clientCode": "BMRCL",
+      "email": "r.chandra@bmrc.co.in",
+      "phone": "+91 94480 12345",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PS-007",
+      "employeeId": "EMP-BMRC-0024",
+      "name": "Col. Jyothi",
+      "roleCode": "CSO",
+      "roleName": "Chief Security Officer",
+      "department": "Chief Security Directorate",
+      "unitCode": "UN-006",
+      "clientCode": "BMRCL",
+      "email": "col.jyothi@bmrc.co.in",
+      "phone": "+91 94480 23456",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PS-008",
+      "employeeId": "EMP-BMRC-0105",
+      "name": "Anil Mehta",
+      "roleCode": "AGM_FIN",
+      "roleName": "AGM Finance",
+      "department": "Finance Verification & Audit",
+      "unitCode": "UN-006",
+      "clientCode": "BMRCL",
+      "email": "anil.mehta@bmrc.co.in",
+      "phone": "+91 94480 34567",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PS-009",
+      "employeeId": "EMP-BOW-0042",
+      "name": "Deepa Hegde",
+      "roleCode": "CASEWORKER",
+      "roleName": "Case Worker",
+      "department": "Hospital Administration",
+      "unitCode": "UN-012",
+      "clientCode": "Bowring Hospital",
+      "email": "deepa.hegde@bowring.gov.in",
+      "phone": "+91 99001 88990",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PS-010",
+      "employeeId": "EMP-BMC-0005",
+      "name": "Dr. Savitha Patil",
+      "roleCode": "MS",
+      "roleName": "Medical Superintendent",
+      "department": "Victoria Hospital Directorate",
+      "unitCode": "UN-008",
+      "clientCode": "BMCRI",
+      "email": "dr.savitha@bmcri.org",
+      "phone": "+91 99002 99001",
+      "status": "ACTIVE"
+    }
+  ],
+  "slas": [
+    {
+      "id": "SLA-001",
+      "code": "SLA-BBMP-CIVIL",
+      "clientCode": "BBMP",
+      "workflowType": "Civil Works & Double Bill",
+      "totalSlaDays": 28,
+      "criticalStageDays": 3,
+      "warningThresholdPercent": 75,
+      "breachThresholdPercent": 100,
+      "escalationPath": "EE → JC → Addl. Commr",
+      "calendarType": "BUSINESS_DAYS",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SLA-002",
+      "code": "SLA-BMRCL-80OPS",
+      "clientCode": "BMRCL",
+      "workflowType": "Metro Civil (80% Operational)",
+      "totalSlaDays": 14,
+      "criticalStageDays": 2,
+      "warningThresholdPercent": 75,
+      "breachThresholdPercent": 100,
+      "escalationPath": "ASCO → CSO → GM Ops → AGM Fin",
+      "calendarType": "BUSINESS_DAYS",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SLA-003",
+      "code": "SLA-BMRCL-20HR",
+      "clientCode": "BMRCL",
+      "workflowType": "Metro Statutory HR (20% Retention)",
+      "totalSlaDays": 18,
+      "criticalStageDays": 2,
+      "warningThresholdPercent": 75,
+      "breachThresholdPercent": 100,
+      "escalationPath": "HR Mgr → Accounts → AGM Fin",
+      "calendarType": "BUSINESS_DAYS",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SLA-004",
+      "code": "SLA-BMCRI-HOSP",
+      "clientCode": "BMCRI",
+      "workflowType": "Hospital Housekeeping & Security",
+      "totalSlaDays": 24,
+      "criticalStageDays": 2,
+      "warningThresholdPercent": 75,
+      "breachThresholdPercent": 100,
+      "escalationPath": "Matron → RMO → MS → Dean",
+      "calendarType": "CALENDAR_DAYS",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SLA-005",
+      "code": "SLA-KIADB-INFRA",
+      "clientCode": "KIADB",
+      "workflowType": "Industrial Area Works",
+      "totalSlaDays": 15,
+      "criticalStageDays": 2,
+      "warningThresholdPercent": 75,
+      "breachThresholdPercent": 100,
+      "escalationPath": "EE → Head Office → DC",
+      "calendarType": "BUSINESS_DAYS",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SLA-006",
+      "code": "SLA-KSMCL-MINES",
+      "clientCode": "KSMCL",
+      "workflowType": "Mining & Geology Works",
+      "totalSlaDays": 16,
+      "criticalStageDays": 3,
+      "warningThresholdPercent": 75,
+      "breachThresholdPercent": 100,
+      "escalationPath": "Mines Mgr → GM → MD",
+      "calendarType": "BUSINESS_DAYS",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SLA-007",
+      "code": "SLA-KPTCL-POWER",
+      "clientCode": "KPTCL",
+      "workflowType": "Power Substation Civil",
+      "totalSlaDays": 18,
+      "criticalStageDays": 3,
+      "warningThresholdPercent": 75,
+      "breachThresholdPercent": 100,
+      "escalationPath": "Admin → CE → MD",
+      "calendarType": "BUSINESS_DAYS",
+      "status": "ACTIVE"
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-001",
+      "code": "TAX-INVOICE",
+      "title": "Tax Invoice & Covering Letter",
+      "category": "Statutory Compliance",
+      "allowedExtensions": [
+        "PDF",
+        "JPG"
+      ],
+      "maxSizeBytes": 10485760,
+      "isRequiredDefault": true,
+      "description": "Official GST tax invoice with contractor letterhead, bank details, and PAN/GSTIN."
+    },
+    {
+      "id": "DOC-002",
+      "code": "WORK-ORDER",
+      "title": "Work Order Sanction Copy",
+      "category": "Administrative Sanction",
+      "allowedExtensions": [
+        "PDF"
+      ],
+      "maxSizeBytes": 10485760,
+      "isRequiredDefault": true,
+      "description": "Official letter of acceptance and work order issued by competent authority."
+    },
+    {
+      "id": "DOC-003",
+      "code": "MB-BOOK",
+      "title": "Measurement Book (MB) Entry",
+      "category": "Technical & Measurement",
+      "allowedExtensions": [
+        "PDF",
+        "XLSX"
+      ],
+      "maxSizeBytes": 20971520,
+      "isRequiredDefault": true,
+      "description": "Recorded physical measurements in official serialized Measurement Book."
+    },
+    {
+      "id": "DOC-004",
+      "code": "CHECK-MEASURE",
+      "title": "25% Check-Measurement Note (KPWD Code)",
+      "category": "Technical & Measurement",
+      "allowedExtensions": [
+        "PDF"
+      ],
+      "maxSizeBytes": 10485760,
+      "isRequiredDefault": true,
+      "description": "Endorsement by AEE certifying 25%+ physical check under KPWD Code Art. 219."
+    },
+    {
+      "id": "DOC-005",
+      "code": "GEOTAG-PHOTOS",
+      "title": "Geo-tagged Site Inspection Photos",
+      "category": "Technical & Measurement",
+      "allowedExtensions": [
+        "JPG",
+        "PNG",
+        "PDF"
+      ],
+      "maxSizeBytes": 52428800,
+      "isRequiredDefault": true,
+      "description": "High-resolution photographs with embedded latitude, longitude, and timestamp."
+    },
+    {
+      "id": "DOC-006",
+      "code": "MUSTER-ROLL",
+      "title": "Form V Biometric Muster Roll & Attendance",
+      "category": "Statutory Compliance",
+      "allowedExtensions": [
+        "PDF",
+        "XLSX"
+      ],
+      "maxSizeBytes": 15728640,
+      "isRequiredDefault": true,
+      "description": "Monthly biometric attendance log and muster roll signed by facility in-charge."
+    },
+    {
+      "id": "DOC-007",
+      "code": "EPF-ESI-CHALLAN",
+      "title": "EPF & ESI Challan with Electronic Challan Return (ECR)",
+      "category": "Statutory Compliance",
+      "allowedExtensions": [
+        "PDF"
+      ],
+      "maxSizeBytes": 10485760,
+      "isRequiredDefault": true,
+      "description": "Bank-paid EPF & ESI challans with detailed employee ECR schedule."
+    },
+    {
+      "id": "DOC-008",
+      "code": "LABOUR-CESS",
+      "title": "Labour Welfare Cess Assessment Note",
+      "category": "Statutory Compliance",
+      "allowedExtensions": [
+        "PDF"
+      ],
+      "maxSizeBytes": 5242880,
+      "isRequiredDefault": false,
+      "description": "1% Building & Other Construction Workers (BOCW) welfare cess deduction certificate."
+    },
+    {
+      "id": "DOC-009",
+      "code": "QUALITY-CERT",
+      "title": "Third-Party Laboratory Quality Certificate",
+      "category": "Technical & Measurement",
+      "allowedExtensions": [
+        "PDF"
+      ],
+      "maxSizeBytes": 10485760,
+      "isRequiredDefault": false,
+      "description": "Concrete compressive strength, soil compaction, or asphalt testing report."
+    },
+    {
+      "id": "DOC-010",
+      "code": "WARD-HYGIENE",
+      "title": "Ward Hygiene / Cleanliness Certificate",
+      "category": "Healthcare Technical",
+      "allowedExtensions": [
+        "PDF"
+      ],
+      "maxSizeBytes": 5242880,
+      "isRequiredDefault": false,
+      "description": "Monthly ward cleanliness rating endorsed by Matron / Nursing Superintendent."
+    },
+    {
+      "id": "DOC-011",
+      "code": "TECH-SANCTION",
+      "title": "Technical Sanction & Rate Concordance Sheet",
+      "category": "Financial & Tax",
+      "allowedExtensions": [
+        "PDF",
+        "XLSX"
+      ],
+      "maxSizeBytes": 10485760,
+      "isRequiredDefault": true,
+      "description": "BoQ rate comparison against current Schedule of Rates (SR)."
+    },
+    {
+      "id": "DOC-012",
+      "code": "DC-BILL-ORDER",
+      "title": "DC Bill Voucher & Scrutiny Sheet",
+      "category": "Pre-Audit & Accounts",
+      "allowedExtensions": [
+        "PDF"
+      ],
+      "maxSizeBytes": 10485760,
+      "isRequiredDefault": false,
+      "description": "Municipal DC Bill sanction order signed by DCF Bill Wing."
+    },
+    {
+      "id": "DOC-013",
+      "code": "FUND-RELEASE",
+      "title": "Budget Allocation & Fund Release Authorization",
+      "category": "Banking & Payment",
+      "allowedExtensions": [
+        "PDF"
+      ],
+      "maxSizeBytes": 5242880,
+      "isRequiredDefault": false,
+      "description": "Treasury fund release token voucher authorizing disbursement."
+    },
+    {
+      "id": "DOC-014",
+      "code": "RTGS-ADVICE",
+      "title": "RTGS / Bank Remittance Advice",
+      "category": "Banking & Payment",
+      "allowedExtensions": [
+        "PDF"
+      ],
+      "maxSizeBytes": 5242880,
+      "isRequiredDefault": false,
+      "description": "Treasury scroll and bank RTGS payment acknowledgment receipt."
+    }
+  ],
+  "escalations": [
+    {
+      "id": "ESC-001",
+      "code": "ESC-75-WARN",
+      "name": "SLA Warning at 75% Dwell Limit",
+      "triggerCondition": "75% of stage turnaround SLA elapsed without forward transition",
+      "sourceRole": "Current Assignee",
+      "targetRole": "Section Head / Supervisor",
+      "priority": "MEDIUM",
+      "action": "DASHBOARD_ALERT",
+      "gracePeriodHours": 12,
+      "description": "Triggers amber visual warning on Control Tower and dispatches automated reminder.",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ESC-002",
+      "code": "ESC-100-BREACH",
+      "name": "SLA Breach at 100% (Tier 1 Escalation)",
+      "triggerCondition": "Stage turnaround SLA exceeded 100%",
+      "sourceRole": "Current Assignee",
+      "targetRole": "Executive Engineer / Director",
+      "priority": "HIGH",
+      "action": "AUTO_REASSIGN_HOD",
+      "gracePeriodHours": 24,
+      "description": "Red flag raised, immediate notification sent to departmental directorate.",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ESC-003",
+      "code": "ESC-48H-CRITICAL",
+      "name": "Critical Overdue (>48h past SLA)",
+      "triggerCondition": "Bill unresolved 48 hours after SLA breach",
+      "sourceRole": "Executive Engineer",
+      "targetRole": "Joint Commissioner / CEO",
+      "priority": "CRITICAL",
+      "action": "MANAGEMENT_ESCALATION",
+      "gracePeriodHours": 0,
+      "description": "Direct escalation to Executive Management and inclusion in urgent morning intervention list.",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ESC-004",
+      "code": "ESC-AUDIT-OBJECTION",
+      "name": "Audit Objection & Rejection Loop",
+      "triggerCondition": "Bill returned/rejected by pre-audit or accounts due to document discrepancy",
+      "sourceRole": "Pre-Audit / Accounts",
+      "targetRole": "Case Worker / Vendor",
+      "priority": "HIGH",
+      "action": "EMAIL_DISPATCH",
+      "gracePeriodHours": 24,
+      "description": "Routes docket to Return Queue with mandatory itemized objection notice.",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ESC-005",
+      "code": "ESC-DOC-MISSING",
+      "name": "Mandatory Document Missing Gate",
+      "triggerCondition": "Stage completion attempted without all mandatory documents uploaded",
+      "sourceRole": "System Gate",
+      "targetRole": "Submitting Officer",
+      "priority": "HIGH",
+      "action": "BLOCK_TRANSITION",
+      "gracePeriodHours": 0,
+      "description": "Hard-stops forward stage transition until mandatory checklists and documents are satisfied.",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "ESC-006",
+      "code": "ESC-SPLIT-RETENTION",
+      "name": "Transit 20% Retention Escrow Gate",
+      "triggerCondition": "BMRCL 80% operational bill approved",
+      "sourceRole": "Corporate Finance",
+      "targetRole": "HR Compliance Wing",
+      "priority": "MEDIUM",
+      "action": "SPLIT_DOCKET",
+      "gracePeriodHours": 0,
+      "description": "Automatically instantiates the parallel 20% statutory HR retention docket.",
+      "status": "ACTIVE"
+    }
+  ]
+}
