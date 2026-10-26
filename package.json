@@ -1,5 +1,5 @@
 {
-  "name": "billing-tracker",
+  "name": "billing-tower",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -8,6 +8,7 @@
     "client": "vite",
     "server": "node server/index.js",
     "build": "vite build",
+    "start": "node server/index.js",
     "preview": "vite preview"
   },
   "dependencies": {

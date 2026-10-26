@@ -1,52 +1,149 @@
-# Billing Tracker
+# 🏗️ Billing Tower
 
-A complete React + Vite + Express starter implementing the enterprise Billing Tower Tracker.
+> **Enterprise Billing Control Tower** — A comprehensive billing management, workflow tracking, and governance platform for BBMP Lakes, BMRCL, and allied government departments.
 
-## Features
-- **Authentication & Authorization**: Secure session-based login and logout with token expiration and protected APIs.
-- **Role-Based Identities**: Supports Field Officers, System Administrators, and Finance Leads.
-- **1-Click Quick Demo Login**: Fast testing switcher with pre-configured officer accounts.
-- **Dynamic Workflow Stages**: Configurable stages by project type (BBMP Lakes, Standard).
-- **Forward-Only Governance**: Enforced forward-only progression rules both in UI and API.
-- **Immutable Audit Trail**: Tracks step changes, timestamps, and the specific authorizing officer who executed each step.
-- **Completion Percentage & Live Status**: Visual stage progression indicators.
-- **Documentation Photo Gallery**: Verification photo attachments with carousel navigation.
-- **Responsive Layout**: High-end enterprise design system with dark topbar and glassmorphism accents.
+Built with **React 19 + Vite + Express 5**.
 
-## Demo User Accounts
+---
 
-| Role | Username / Email | Password | Department |
-| :--- | :--- | :--- | :--- |
-| **Billing Tower Admin** | `billing_tower` or `billing_tower@billing.gov` | `#bill@2026` | Billing Operations & Governance |
-| **Field Officer (AEE)** | `officer` or `officer@billing.gov` | `officer123` | BBMP Lakes & Water Bodies |
-| **System Administrator** | `admin` or `admin@billing.gov` | `#bill@2026` | Executive & Systems Directorate |
-| **Finance Lead** | `finance` or `finance@billing.gov` | `finance123` | Finance Verification & Payments |
+## ✨ Features
 
-## Run
-Requirements: Node.js 18+.
+- **Secure Authentication** — Session-based login with 24-hour token expiry, password hashing (scrypt), and protected APIs
+- **Role-Based Access Control** — Field Officers, System Administrators, Finance Leads with distinct permissions
+- **Dynamic Multi-Stage Workflows** — Configurable approval stages by project type (BBMP Lakes, BMRCL, Standard)
+- **Forward-Only Governance** — Enforced progression rules prevent skipping or reversing stages
+- **Immutable Audit Trail** — Full history of step changes, timestamps, and authorizing officers
+- **Invoice & Payment Tracking** — GST TDS, IT TDS, Labour Cess, Retention deductions computed automatically
+- **Site Photo Gallery** — Geo-tagged inspection photos with carousel navigation
+- **PDF Inspector** — Upload and analyze billing documents with AI-assisted extraction
+- **HRMS Integration** — Biometric attendance and labour compliance verification
+- **SLA Notifications** — Real-time alerts for breached and approaching SLA deadlines
+- **Reports & Analytics** — Charts and export capabilities for billing trends
+- **Master Management** — Tower registry, workflow templates, and contractor data
+- **Responsive Dark UI** — Premium glassmorphism design system
+
+---
+
+## 🔑 Demo Accounts
+
+| Role | Username | Password |
+|:--|:--|:--|
+| Billing Tower Admin | `billing_tower` | `#bill@2026` |
+| System Administrator | `admin` | `#bill@2026` |
+| Field Officer (AEE) | `officer` | `officer123` |
+| Finance Lead | `finance` | `finance123` |
+
+---
+
+## 🚀 Quick Start (Development)
+
+**Requirements:** Node.js 18+
 
 ```bash
+# Install dependencies
 npm install
+
+# Run frontend + backend together
 npm run dev
 ```
 
-Open:
-- Frontend: http://localhost:5173
-- API: http://localhost:4000
+- **Frontend:** http://localhost:5173
+- **API:** http://localhost:4000
 
-## API
+---
+
+## 🏭 Production Deployment
+
+```bash
+# 1. Build the React frontend
+npm run build
+
+# 2. Start the Express server (serves both API + built frontend)
+npm start
+```
+
+The server reads `PORT` from environment variables (default: `4000`).  
+After building, the full app is served from `http://localhost:4000`.
+
+### Environment Variables
+
+| Variable | Default | Description |
+|:--|:--|:--|
+| `PORT` | `4000` | Port for the Express server |
+
+### Deployment Platforms
+
+Deploy to any Node.js host:
+- **Render** — connect repo, set build command `npm run build`, start command `npm start`
+- **Railway** — auto-detects Node.js, set start command `npm start`
+- **Heroku** — uses `npm start` automatically
+- **VPS/VM** — run `npm run build && npm start` behind nginx
+
+---
+
+## 📡 API Reference
+
 ### Authentication
-- `POST /api/auth/login` - Body: `{ "identifier": "officer", "password": "officer123" }`
-- `POST /api/auth/logout` - Headers: `Authorization: Bearer <token>`
-- `GET /api/auth/me` - Headers: `Authorization: Bearer <token>`
-- `GET /api/auth/demo-users` - Public list of demo roles for quick login
+| Method | Endpoint | Auth | Body |
+|:--|:--|:--|:--|
+| POST | `/api/auth/login` | ❌ | `{ identifier, password }` |
+| POST | `/api/auth/logout` | ✅ Bearer | — |
+| GET | `/api/auth/me` | ✅ Bearer | — |
+| GET | `/api/auth/demo-users` | ❌ | — |
 
-### Billing & Workflows
-- `GET /api/workflows`
-- `GET /api/bills/BILL-1001` - Headers: `Authorization: Bearer <token>`
-- `GET /api/bills/BILL-1001/audit` - Headers: `Authorization: Bearer <token>`
-- `POST /api/bills/BILL-1001/transition` - Headers: `Authorization: Bearer <token>`
-  - Body: `{ "step": 6 }`
+### Bills & Workflows
+| Method | Endpoint | Auth |
+|:--|:--|:--|
+| GET | `/api/bills` | ✅ Bearer |
+| GET | `/api/bills/:id` | ✅ Bearer |
+| POST | `/api/bills` | ✅ Bearer |
+| PUT | `/api/bills/:id` | ✅ Bearer |
+| POST | `/api/bills/:id/transition` | ✅ Bearer |
+| GET | `/api/bills/:id/audit` | ✅ Bearer |
+| GET | `/api/workflows` | ❌ |
+| GET | `/api/towers` | ✅ Bearer |
 
-## Production Note
-The demo server stores sessions and data in memory for easy evaluation. For enterprise deployment, configure persistent databases (e.g., PostgreSQL / Redis) and production JWT/cookie configurations.
+---
+
+## 🗂️ Project Structure
+
+```
+billing-tower/
+├── server/
+│   ├── index.js              # Express API server
+│   ├── pdfAnalyzer.js        # PDF document analysis
+│   ├── workflowEngine.js     # Workflow state machine
+│   └── data/                 # Persistent data store
+├── src/
+│   ├── main.jsx              # App entry point & routing
+│   ├── Login.jsx             # Authentication UI
+│   ├── DashboardView.jsx     # Main dashboard
+│   ├── ControlTowerDashboard.jsx
+│   ├── WorkflowTrackerJourney.jsx
+│   ├── TowerMasterView.jsx
+│   ├── ReportsView.jsx
+│   ├── SlaNotificationsView.jsx
+│   ├── MasterManagementView.jsx
+│   ├── styles.css            # Global design system
+│   └── ...                   # Feature modals & components
+├── index.html
+├── vite.config.js
+└── package.json
+```
+
+---
+
+## ⚠️ Production Notes
+
+> The demo server uses **in-memory storage** for sessions and data. For enterprise deployment:
+> - Replace with **PostgreSQL** for persistent billing data
+> - Use **Redis** for session management
+> - Configure **JWT** with RS256 for stateless auth
+> - Enable **HTTPS** via reverse proxy (nginx/caddy)
+> - Set up **file storage** (S3/GCS) instead of local uploads
+
+---
+
+## 📋 License
+
+Private — BBMP Billing Operations & Governance Directorate

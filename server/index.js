@@ -3411,8 +3411,23 @@ app.get("/api/proposal/deliverables", (req, res) => {
   });
 });
 
-app.listen(4000, () => {
-  console.log("Billing Tracker API running at http://localhost:4000");
+// Serve built frontend in production
+const distDir = path.join(__dirname, "../dist");
+if (fs.existsSync(distDir)) {
+  app.use(express.static(distDir));
+  app.get("*", (req, res) => {
+    if (!req.path.startsWith("/api") && !req.path.startsWith("/uploads")) {
+      res.sendFile(path.join(distDir, "index.html"));
+    }
+  });
+}
+
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => {
+  console.log(`Billing Tower API running at http://localhost:${PORT}`);
+  if (fs.existsSync(distDir)) {
+    console.log(`Frontend served at http://localhost:${PORT}`);
+  }
 });
 
 // Keep the event loop alive
